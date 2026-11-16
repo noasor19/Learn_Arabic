@@ -1,0 +1,1564 @@
+<!doctype html><html><head><meta charset=utf8><meta name=viewport content="width=device-width,initial-scale=1,viewport-fit=cover"><style>:root{color-scheme:light;box-sizing:border-box;padding-top:env(safe-area-inset-top,0px);padding-bottom:env(safe-area-inset-bottom,0px)}html{scroll-padding-top:env(safe-area-inset-top,0px)}body{margin:0;padding:0;font:14px -apple-system,BlinkMacSystemFont,sans-serif;background:#fff;color:#000}img{max-width:100%}[hidden]:not([hidden=until-found i]){display:none!important}</style></head><body>
+<title>יאללה ערבית</title>
+<meta name="claude:viewport-fit-sides" content="cover">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Fredoka:wght@400;500;600;700&family=Noto+Naskh+Arabic:wght@500;700&family=Reem+Kufi:wght@500;700&family=Rubik:wght@400;500;700&display=swap">
+<style>
+/* Layout: a "tatreez sampler". The page reads like embroidered cloth: a cotton ground, cross-stitch bands between the five level panels, and each level stitched in its own thread colour */
+:root{
+  --bg:#F4F5F0; --grain:rgba(29,33,48,.075); --surface:#FFFFFF; --surface-2:#F0F2EA; --ink:#1D2130; --muted:#5D6373; --line:#DCDFD4;
+  --red:#B3262E; --indigo:#2D4E9E; --saffron:#B27A0B; --olive:#4C7A28; --plum:#7A3E8E;
+  --accent:var(--red); --on-accent:#FFFFFF; --on-hue:#FFFFFF; --good:#2E8B4E; --bad:#C7362F;
+  --lift:0 1px 0 rgba(29,33,48,.05),0 10px 26px -16px rgba(29,33,48,.35);
+  --f-display:"Fredoka","Rubik",system-ui,sans-serif;
+  --f-body:"Rubik",system-ui,"Segoe UI",Arial,sans-serif;
+  --f-ar:"Noto Naskh Arabic","Geeza Pro","Arial",serif;
+  --f-kufi:"Reem Kufi","Noto Naskh Arabic",sans-serif;
+  --r:16px;
+  --stitch:url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 20'%3E%3Cpath d='M8.6 .6l2.8 2.8M11.4 .6l-2.8 2.8M4.6 4.6l2.8 2.8M7.4 4.6l-2.8 2.8M12.6 4.6l2.8 2.8M15.4 4.6l-2.8 2.8M.6 8.6l2.8 2.8M3.4 8.6l-2.8 2.8M8.6 8.6l2.8 2.8M11.4 8.6l-2.8 2.8M16.6 8.6l2.8 2.8M19.4 8.6l-2.8 2.8M4.6 12.6l2.8 2.8M7.4 12.6l-2.8 2.8M12.6 12.6l2.8 2.8M15.4 12.6l-2.8 2.8M8.6 16.6l2.8 2.8M11.4 16.6l-2.8 2.8' stroke='%23000' stroke-width='1.4' stroke-linecap='round' fill='none'/%3E%3C/svg%3E");
+}
+@media (prefers-color-scheme: dark){:root:not([data-theme="light"]){
+  --bg:#11141D; --grain:rgba(255,255,255,.05); --surface:#1A1F2B; --surface-2:#222836; --ink:#EEF0EA; --muted:#A3A9B7; --line:#303747;
+  --red:#F0646D; --indigo:#88A4F2; --saffron:#F2BB44; --olive:#9FCC66; --plum:#C994E2;
+  --on-accent:#14161E; --on-hue:#14161E; --good:#57D086; --bad:#FF7A70;
+  --lift:0 1px 0 rgba(0,0,0,.3),0 12px 30px -16px rgba(0,0,0,.8); color-scheme:dark}}
+:root[data-theme="dark"]{
+  --bg:#11141D; --grain:rgba(255,255,255,.05); --surface:#1A1F2B; --surface-2:#222836; --ink:#EEF0EA; --muted:#A3A9B7; --line:#303747;
+  --red:#F0646D; --indigo:#88A4F2; --saffron:#F2BB44; --olive:#9FCC66; --plum:#C994E2;
+  --on-accent:#14161E; --on-hue:#14161E; --good:#57D086; --bad:#FF7A70;
+  --lift:0 1px 0 rgba(0,0,0,.3),0 12px 30px -16px rgba(0,0,0,.8); color-scheme:dark}
+
+*{box-sizing:border-box}
+body{background-color:var(--bg);background-image:radial-gradient(var(--grain) 1px,transparent 1.4px);background-size:12px 12px;color:var(--ink);font-family:var(--f-body);font-size:17px;line-height:1.55}
+button{font:inherit;color:inherit;cursor:pointer}
+button:focus-visible,a:focus-visible{outline:3px solid var(--saffron);outline-offset:3px}
+.ar{font-family:var(--f-ar);direction:rtl;unicode-bidi:isolate}
+.wrap{max-width:1100px;margin:0 auto;padding-left:max(16px,env(safe-area-inset-left,0px));padding-right:max(16px,env(safe-area-inset-right,0px));padding-block:18px 56px}
+.hide-tr .tr{display:none!important}
+.hide-he .he{display:none!important}
+
+/* cross-stitch band: the signature element */
+.band{display:block;height:20px;background:var(--hue,var(--accent));-webkit-mask:var(--stitch) left center/24px 20px repeat-x;mask:var(--stitch) left center/24px 20px repeat-x}
+.star{display:block;color:var(--hue,var(--accent))}
+.star svg{display:block;width:100%;height:100%}
+
+/* header */
+.top{display:flex;align-items:center;justify-content:space-between;gap:12px;flex-wrap:wrap;margin-bottom:22px}
+.brand{display:flex;align-items:center;gap:12px;background:none;border:0;padding:0;text-align:start}
+.logo{width:50px;height:50px;color:var(--accent)}
+.logo svg{width:100%;height:100%;display:block}
+.brand h1{margin:0;font-family:var(--f-display);font-size:30px;font-weight:600;line-height:1;letter-spacing:-.01em}
+.brand small{display:block;color:var(--muted);font-family:var(--f-kufi);font-size:16px;margin-top:2px}
+.topright{display:flex;gap:8px;flex-wrap:wrap;align-items:center}
+.chip{display:flex;align-items:center;gap:6px;background:var(--surface);border:1px solid var(--line);border-radius:999px;padding:6px 13px;font-size:15px;font-variant-numeric:tabular-nums}
+.chip .s{color:var(--saffron);font-size:18px}
+.tgl{background:var(--surface);border:1px solid var(--line);border-radius:999px;padding:6px 13px;font-size:14px}
+.tgl[aria-pressed="true"]{border-color:var(--ink)}
+.tgl[aria-pressed="false"]{color:var(--muted);text-decoration:line-through}
+
+.notice{display:flex;gap:12px;align-items:flex-start;background:var(--surface);border:1.5px dashed var(--red);border-radius:var(--r);padding:12px 14px;margin-bottom:16px;font-size:15px}
+.notice button{margin-inline-start:auto;background:none;border:0;font-size:20px;color:var(--muted)}
+
+/* hero */
+.hero{position:relative;display:grid;grid-template-columns:1.25fr 1fr;gap:28px;align-items:center;background:var(--surface);border:1px solid var(--line);border-radius:26px;padding:28px 28px 46px;margin-bottom:26px;overflow:hidden;box-shadow:var(--lift)}
+.hero>.band{position:absolute;inset:auto 0 12px 0;--hue:var(--red)}
+.hero-ar{font-family:var(--f-kufi);font-size:clamp(44px,7.5vw,78px);line-height:1.1;color:var(--accent);margin:0 0 6px;font-weight:700}
+.hero h2{font-family:var(--f-display);font-weight:600;font-size:clamp(25px,3.6vw,36px);line-height:1.15;margin:0 0 12px;text-wrap:balance;letter-spacing:-.01em}
+.hero p{margin:0 0 8px;color:var(--muted);max-width:56ch}
+.hero .cta{display:flex;gap:10px;flex-wrap:wrap;margin-top:16px}
+.rtl-demo{position:relative;background:var(--surface-2);border-radius:20px;padding:20px 18px 18px;display:grid;gap:8px;min-width:0;outline:2px dashed color-mix(in srgb,var(--indigo) 45%,transparent);outline-offset:-8px}
+.rtl-demo .wod{font-size:12px;letter-spacing:.12em;color:var(--indigo);font-weight:600;padding-inline:6px}
+.rtl-row{display:flex;align-items:center;justify-content:space-between;gap:10px;padding:6px 8px;border-bottom:1px solid var(--line)}
+.rtl-row:last-of-type{border-bottom:0}
+.rtl-row .lbl{font-size:13px;color:var(--muted);letter-spacing:.05em}
+.rtl-row .big{font-size:24px;font-weight:700}
+.rtl-row .big.ar{font-size:36px;color:var(--ink)}
+.rtl-row .big.he{font-family:var(--f-display);font-weight:500}
+.rtl-demo .btn{justify-self:start;margin-top:4px}
+
+/* levels */
+.level{position:relative;background:var(--surface);border:1px solid var(--line);border-radius:24px;padding:0 22px 22px;margin-bottom:24px;scroll-margin-top:12px;overflow:hidden;box-shadow:var(--lift)}
+.level>.band{margin:14px 0 16px}
+.lhead{display:grid;grid-template-columns:auto 1fr auto;gap:18px;align-items:center;margin-bottom:18px}
+.lbadge{position:relative;width:76px;height:76px;color:var(--hue)}
+.lbadge svg{width:100%;height:100%;display:block}
+.lbadge b{position:absolute;inset:0;margin:auto;width:32px;height:32px;border-radius:50%;background:var(--surface);border:2px solid var(--hue);display:grid;place-items:center;font-family:var(--f-display);font-weight:700;font-size:17px;color:var(--ink)}
+.eyebrow{display:block;font-size:12px;letter-spacing:.14em;color:var(--hue);font-weight:700;margin-bottom:2px}
+.lhead h2{margin:0;font-family:var(--f-display);font-weight:600;font-size:28px;line-height:1.1}
+.lhead h2 .ar{font-family:var(--f-kufi);font-size:20px;color:var(--muted);margin-inline-start:10px;font-weight:500}
+.lhead p{margin:4px 0 0;color:var(--muted);font-size:15px;max-width:62ch}
+.lprog{display:flex;flex-direction:column;align-items:flex-end;gap:6px;font-size:14px;color:var(--muted);min-width:130px;font-variant-numeric:tabular-nums}
+.pbar{width:130px;height:8px;border-radius:999px;background:var(--surface-2);overflow:hidden}
+.pbar i{display:block;height:100%;background:var(--hue);border-radius:999px}
+.path{display:grid;grid-template-columns:repeat(auto-fill,minmax(158px,1fr));gap:12px;margin-bottom:16px}
+.unit{position:relative;display:flex;flex-direction:column;align-items:flex-start;gap:3px;text-align:start;background:var(--surface-2);border:1px solid transparent;border-radius:var(--r);padding:14px 14px 12px;transition:transform .15s,background .15s;min-width:0}
+.unit:hover{transform:translateY(-2px);background:var(--surface);border-color:var(--line);outline:2px dashed var(--hue);outline-offset:-6px}
+.unit:active{transform:translateY(1px)}
+.unit .num{position:absolute;top:10px;left:10px;width:24px;height:24px;border-radius:50%;display:grid;place-items:center;font-family:var(--f-display);font-weight:600;font-size:12px;color:var(--hue);border:1.5px solid var(--hue);background:var(--surface)}
+.unit .pic{font-size:36px;line-height:1.15}
+.unit .t{font-family:var(--f-display);font-weight:600;font-size:17px;line-height:1.2}
+.unit .a{font-family:var(--f-kufi);font-size:15px;color:var(--muted)}
+.unit .stars{font-size:15px;letter-spacing:2px}
+.st-on{color:var(--saffron)} .st-off{color:var(--line)}
+.unit.feature{grid-column:1/-1;flex-direction:row;align-items:center;gap:20px;background:var(--surface-2)}
+.unit.feature .lp{font-family:var(--f-kufi);font-size:42px;font-weight:700;color:var(--hue);line-height:1.1;letter-spacing:8px}
+.unit.feature .body{display:flex;flex-direction:column;gap:2px;min-width:0}
+.acts{display:flex;gap:8px;flex-wrap:wrap;padding-top:14px;border-top:1px dashed var(--line)}
+.act{display:flex;align-items:center;gap:8px;background:var(--surface);border:1.5px solid var(--line);border-radius:999px;padding:7px 15px;font-size:15px;transition:border-color .15s}
+.act:hover{border-color:var(--hue)}
+.act .badge{font-size:12px;color:var(--hue);font-weight:600;font-variant-numeric:tabular-nums}
+.act.done{border-color:var(--hue)}
+
+/* page head */
+.back{background:var(--surface);border:1px solid var(--line);border-radius:999px;padding:6px 16px;font-size:15px;margin-bottom:16px}
+.uhead{display:flex;align-items:center;gap:14px;flex-wrap:wrap;margin-bottom:12px}
+.uhead .pic{font-size:46px;line-height:1;font-family:var(--f-kufi);color:var(--hue)}
+.uhead h2{margin:0;font-family:var(--f-display);font-weight:600;font-size:32px;line-height:1.1}
+.uhead .a{font-family:var(--f-kufi);font-size:20px;color:var(--muted)}
+.uhead .lv{font-size:13px;background:var(--hue);color:var(--on-hue);border-radius:999px;padding:3px 12px;font-family:var(--f-display);font-weight:600}
+.tip{background:var(--surface);border:1.5px dashed color-mix(in srgb,var(--saffron) 70%,transparent);border-radius:14px;padding:11px 15px;margin:0 0 20px;font-size:15px;max-width:74ch}
+.tip b{color:var(--saffron)}
+.tabs{display:flex;gap:4px;background:var(--surface);border:1px solid var(--line);border-radius:999px;padding:4px;margin-bottom:22px;width:fit-content;max-width:100%;flex-wrap:wrap}
+.tabs button{border:0;background:none;border-radius:999px;padding:8px 18px;font-size:16px}
+.tabs button[aria-pressed="true"]{background:var(--ink);color:var(--surface)}
+
+.toolbar{display:flex;gap:10px;flex-wrap:wrap;align-items:center;margin-bottom:14px}
+.btn{border:0;border-radius:12px;padding:10px 18px;background:var(--accent);color:var(--on-accent);font-family:var(--f-display);font-weight:600;font-size:17px;box-shadow:0 3px 0 color-mix(in srgb,var(--accent) 55%,#000)}
+.btn:active{transform:translateY(2px);box-shadow:none}
+.btn:disabled{opacity:.45;cursor:default}
+.btn.alt{background:var(--surface);color:var(--ink);border:1.5px solid var(--line);box-shadow:0 3px 0 var(--line)}
+.hint{color:var(--muted);font-size:14px}
+
+/* word cards */
+.words{display:grid;grid-template-columns:repeat(auto-fill,minmax(170px,1fr));gap:14px}
+.words.text{grid-template-columns:repeat(auto-fill,minmax(230px,1fr))}
+.wcard{display:flex;flex-direction:column;align-items:center;justify-content:center;gap:1px;background:var(--surface);border:1px solid var(--line);border-radius:18px;padding:18px 12px 14px;box-shadow:var(--lift);text-align:center;min-width:0;position:relative;transition:transform .15s}
+.wcard:hover{transform:translateY(-2px)}
+.wcard .pic{font-size:56px;line-height:1.15;margin-bottom:2px}
+.wcard .w{font-family:var(--f-ar);font-size:32px;font-weight:700;line-height:1.5;overflow-wrap:anywhere}
+.wcard.long .w{font-size:24px}
+.wcard .tr{font-family:var(--f-display);font-weight:500;font-size:18px;color:var(--indigo)}
+.wcard .he{font-size:14px;color:var(--muted)}
+.wcard .spk{position:absolute;top:10px;right:12px;font-size:14px;opacity:.45}
+.wcard.playing{outline:2px dashed var(--accent);outline-offset:-7px;animation:pop .45s}
+.digit{font-family:var(--f-ar);font-size:20px;color:var(--muted)}
+@keyframes pop{0%{transform:scale(1)}40%{transform:scale(1.05)}100%{transform:scale(1)}}
+
+/* letters */
+.ldetail{display:grid;grid-template-columns:auto 1fr;gap:22px;align-items:center;background:var(--surface);border:1px solid var(--line);border-radius:22px;padding:20px;margin-bottom:18px;box-shadow:var(--lift)}
+.ldetail .bigl{font-family:var(--f-ar);font-size:108px;font-weight:700;line-height:1;color:var(--accent);width:150px;height:150px;display:grid;place-items:center;background:var(--surface-2);border-radius:20px;padding-bottom:18px;outline:2px dashed color-mix(in srgb,var(--accent) 45%,transparent);outline-offset:-9px}
+.ldetail .info{display:flex;flex-direction:column;gap:6px;min-width:0}
+.ldetail .name{font-family:var(--f-display);font-weight:600;font-size:26px}
+.ldetail .snd{color:var(--muted)}
+.ldetail .ex{display:flex;align-items:center;gap:12px;flex-wrap:wrap;background:var(--surface-2);border-radius:14px;padding:8px 14px;width:fit-content;max-width:100%}
+.ldetail .ex .pic{font-size:40px}
+.ldetail .ex .w{font-family:var(--f-ar);font-size:30px;font-weight:700}
+.ldetail .ex .w b{color:var(--accent)}
+.ldetail .row{display:flex;gap:8px;flex-wrap:wrap}
+.lgrid{display:grid;grid-template-columns:repeat(auto-fill,minmax(62px,1fr));gap:8px}
+.ltile{aspect-ratio:1;max-width:100%;border:1px solid var(--line);background:var(--surface);border-radius:14px;font-family:var(--f-ar);font-size:32px;font-weight:700;display:grid;place-items:center;padding-bottom:6px;line-height:1}
+.ltile:hover{border-color:var(--accent)}
+.ltile[aria-pressed="true"]{background:var(--ink);color:var(--surface);border-color:var(--ink)}
+
+/* quiz */
+.quiz{background:var(--surface);border:1px solid var(--line);border-radius:24px;padding:22px;max-width:760px;box-shadow:var(--lift)}
+.qtop{display:flex;justify-content:space-between;align-items:center;gap:12px;margin-bottom:12px;font-size:14px;color:var(--muted);font-variant-numeric:tabular-nums}
+.bar{flex:1;height:8px;border-radius:999px;background:var(--surface-2);overflow:hidden}
+.bar i{display:block;height:100%;background:var(--saffron);border-radius:999px;transition:width .3s}
+.bar.timer i{background:var(--red);transition:width 1s linear}
+.qask{font-family:var(--f-display);font-weight:600;font-size:21px;text-align:center;margin:6px 0 10px;text-wrap:balance}
+.qprompt{display:flex;flex-direction:column;align-items:center;gap:4px;margin-bottom:18px;min-height:110px;justify-content:center;text-align:center}
+.qprompt .pic{font-size:82px;line-height:1.1}
+.qprompt .w{font-family:var(--f-ar);font-size:42px;font-weight:700;line-height:1.5}
+.qprompt .w.long{font-size:30px}
+.qprompt .tr{font-family:var(--f-display);font-weight:500;font-size:20px;color:var(--indigo)}
+.qprompt .heq{font-family:var(--f-display);font-weight:600;font-size:30px;line-height:1.3}
+.bigspk{width:100px;height:100px;border-radius:50%;border:0;background:var(--indigo);color:var(--surface);font-size:44px;box-shadow:0 4px 0 color-mix(in srgb,var(--indigo) 55%,#000)}
+.opts{display:grid;grid-template-columns:1fr 1fr;gap:10px}
+.opt{border:2px solid var(--line);background:var(--surface-2);border-radius:16px;padding:12px 8px;min-height:88px;display:flex;flex-direction:column;align-items:center;justify-content:center;gap:2px;text-align:center;min-width:0;transition:border-color .12s}
+.opt .pic{font-size:48px;line-height:1.1}
+.opt .w{font-family:var(--f-ar);font-size:26px;font-weight:700;line-height:1.5;overflow-wrap:anywhere}
+.opt .tr{font-size:14px;color:var(--muted)}
+.opt .heopt{font-size:18px}
+.opt .letter{font-family:var(--f-ar);font-size:48px;font-weight:700;line-height:1.2}
+.opt:hover:not(:disabled){border-color:var(--indigo)}
+.opt.right{border-color:var(--good);background:color-mix(in srgb,var(--good) 16%,var(--surface))}
+.opt.wrong{border-color:var(--bad);background:color-mix(in srgb,var(--bad) 13%,var(--surface));animation:shake .35s}
+.opt:disabled{cursor:default}
+@keyframes shake{25%{transform:translateX(-6px)}75%{transform:translateX(6px)}}
+.result{text-align:center;display:flex;flex-direction:column;align-items:center;gap:10px;padding:10px 0}
+.result .big{font-size:52px;letter-spacing:6px;line-height:1.2}
+.result h3{margin:0;font-family:var(--f-display);font-weight:600;font-size:27px;text-wrap:balance}
+.result p{margin:0;color:var(--muted);max-width:52ch}
+
+/* memory */
+.mgrid{display:grid;grid-template-columns:repeat(4,1fr);gap:10px;max-width:680px}
+.mcard{aspect-ratio:3/4;max-width:100%;border:0;background:none;padding:0;perspective:700px;min-width:0}
+.mcard .in{position:relative;display:block;width:100%;height:100%;transition:transform .4s;transform-style:preserve-3d}
+.mcard.open .in,.mcard.done .in{transform:rotateY(180deg)}
+.mcard .face{position:absolute;inset:0;border-radius:16px;display:flex;flex-direction:column;align-items:center;justify-content:center;backface-visibility:hidden;border:1px solid var(--line);padding:4px;overflow:hidden}
+.mcard .back-f{background:var(--ink);color:var(--surface);font-family:var(--f-kufi);font-size:40px;font-weight:700;border-color:var(--ink);outline:2px dashed color-mix(in srgb,var(--surface) 35%,transparent);outline-offset:-8px}
+.mcard .front{background:var(--surface);transform:rotateY(180deg)}
+.mcard.done .front{border-color:var(--good);background:color-mix(in srgb,var(--good) 13%,var(--surface))}
+.mcard .pic{font-size:clamp(34px,8vw,54px)}
+.mcard .w{font-family:var(--f-ar);font-size:clamp(17px,4.2vw,26px);font-weight:700;line-height:1.4;text-align:center;overflow-wrap:anywhere}
+.mcard .heopt{font-size:clamp(13px,3.2vw,17px);text-align:center}
+.mcard .tr{font-size:clamp(11px,2.6vw,14px);color:var(--muted);text-align:center}
+.mcard .letter{font-family:var(--f-ar);font-size:clamp(40px,10vw,64px);font-weight:700;line-height:1.1}
+
+/* dialogue */
+.chat{display:flex;flex-direction:column;gap:10px;max-width:760px;margin-bottom:24px}
+.bubble{display:flex;flex-direction:column;gap:1px;max-width:85%;border:1px solid var(--line);background:var(--surface);border-radius:18px 18px 18px 6px;padding:10px 15px;text-align:start;box-shadow:var(--lift)}
+.bubble.b{align-self:flex-end;background:color-mix(in srgb,var(--indigo) 9%,var(--surface));border-radius:18px 18px 6px 18px}
+.bubble .who{font-size:12px;color:var(--muted);letter-spacing:.04em}
+.bubble .w{font-family:var(--f-ar);font-size:26px;font-weight:700;line-height:1.5}
+.bubble .tr{color:var(--indigo);font-family:var(--f-display);font-weight:500;font-size:16px}
+.bubble .he{font-size:14px;color:var(--muted)}
+.bubble.playing{outline:2px dashed var(--accent);outline-offset:-6px}
+.qcard{background:var(--surface);border:1px solid var(--line);border-radius:18px;padding:16px;margin-bottom:12px;max-width:760px}
+.qcard h4{margin:0 0 10px;font-family:var(--f-display);font-weight:600;font-size:19px}
+.qcard .opts .opt{min-height:54px}
+
+/* sentence builder */
+.slots{min-height:72px;border:2px dashed var(--line);border-radius:16px;padding:10px;display:flex;flex-wrap:wrap;gap:8px;align-items:center;margin-bottom:14px;direction:rtl}
+.pool{display:flex;flex-wrap:wrap;gap:8px;margin-bottom:14px;direction:rtl}
+.tile{font-family:var(--f-ar);font-size:24px;font-weight:700;background:var(--surface-2);border:1px solid var(--line);border-radius:12px;padding:4px 14px;line-height:1.6;box-shadow:0 3px 0 var(--line)}
+.tile.used{visibility:hidden}
+.slots.ok{border-color:var(--good);background:color-mix(in srgb,var(--good) 9%,var(--surface))}
+.slots.no{border-color:var(--bad)}
+.answer{font-family:var(--f-ar);font-size:24px;font-weight:700}
+
+footer{margin-top:40px;color:var(--muted);font-size:13px;text-align:center;max-width:72ch;margin-inline:auto}
+footer .band{--hue:var(--line);margin-bottom:14px}
+canvas#fx{position:fixed;inset:0;pointer-events:none;z-index:50}
+
+@media (max-width:700px){
+  .hero{grid-template-columns:1fr;padding:20px 18px 42px}
+  .lhead{grid-template-columns:auto 1fr}
+  .lprog{grid-column:1/-1;align-items:flex-start}
+  .lbadge{width:62px;height:62px}
+  .ldetail{grid-template-columns:1fr;justify-items:center;text-align:center}
+  .ldetail .info{align-items:center}
+  .ldetail .bigl{width:120px;height:120px;font-size:88px}
+  .mgrid{grid-template-columns:repeat(3,1fr);gap:8px}
+  .words{grid-template-columns:repeat(auto-fill,minmax(140px,1fr));gap:10px}
+  .words.text{grid-template-columns:1fr}
+  .wcard .pic{font-size:46px}.wcard .w{font-size:28px}
+  .unit.feature{flex-direction:column;align-items:flex-start}
+  .level{padding:0 16px 16px}
+  .path{grid-template-columns:repeat(2,1fr)}
+  .qprompt .w{font-size:34px}
+  .brand h1{font-size:26px}
+}
+@media (prefers-reduced-motion:reduce){*{animation:none!important;transition:none!important}}
+
+/* ===== friendlier layer: rounder shapes, tinted cards, bigger targets ===== */
+[hidden]{display:none!important}
+:root{ --r:20px; --guide:rgba(45,78,158,.16); --rule:#C9CEC0; --pen:#2D4E9E; --tint:9% }
+@media (prefers-color-scheme: dark){:root:not([data-theme="light"]){ --guide:rgba(136,164,242,.2); --rule:#3A4253; --pen:#88A4F2; --tint:14% }}
+:root[data-theme="dark"]{ --guide:rgba(136,164,242,.2); --rule:#3A4253; --pen:#88A4F2; --tint:14% }
+
+.btn{border-radius:999px;padding:11px 22px}
+.back{padding:8px 18px}
+.level,.quiz,.welcome{border-radius:28px}
+.unit{background:color-mix(in srgb,var(--hue) var(--tint),var(--surface));border:1px solid color-mix(in srgb,var(--hue) 18%,transparent);border-radius:22px;padding:16px 14px 14px}
+.unit:hover{background:color-mix(in srgb,var(--hue) calc(var(--tint) + 6%),var(--surface))}
+.unit .pic{font-size:42px}
+.wcard{border-radius:24px}
+.opt{border-radius:20px}
+.subh{font-family:var(--f-display);font-weight:600;font-size:22px;margin:6px 0 12px}
+.tip{border-radius:18px}
+
+/* main nav */
+.nav{display:flex;gap:4px;flex-wrap:wrap;background:var(--surface);border:1px solid var(--line);border-radius:999px;padding:5px;margin:-6px 0 22px;width:fit-content;max-width:100%;box-shadow:var(--lift)}
+.nav button{border:0;background:none;border-radius:999px;padding:9px 16px;font-size:15px;font-family:var(--f-display);font-weight:500;white-space:nowrap}
+.nav button:hover{background:var(--surface-2)}
+.nav button[aria-current="page"]{background:var(--ink);color:var(--surface)}
+
+/* welcome */
+.welcome{position:relative;display:grid;grid-template-columns:1.35fr 1fr;gap:26px;align-items:stretch;background:var(--surface);border:1px solid var(--line);padding:26px 26px 48px;margin-bottom:18px;overflow:hidden;box-shadow:var(--lift)}
+.welcome>.band{position:absolute;inset:auto 0 12px 0;--hue:var(--red)}
+.welcome h2{font-family:var(--f-display);font-weight:600;font-size:clamp(24px,3.4vw,34px);line-height:1.15;margin:14px 0 10px;text-wrap:balance}
+.welcome p{margin:0;color:var(--muted);max-width:56ch}
+.welcome .cta{display:flex;gap:10px;flex-wrap:wrap;margin-top:18px}
+.mascot-row{display:flex;align-items:flex-end;gap:12px}
+.mascot{font-size:64px;line-height:1;animation:bob 3s ease-in-out infinite}
+@keyframes bob{0%,100%{transform:translateY(0)}50%{transform:translateY(-5px)}}
+.speech{position:relative;background:color-mix(in srgb,var(--saffron) 14%,var(--surface));border-radius:20px 20px 20px 6px;padding:12px 16px;font-size:16px;max-width:44ch}
+.speech b{font-family:var(--f-display);font-weight:600}
+.daycard{display:flex;flex-direction:column;gap:12px;background:color-mix(in srgb,var(--saffron) 10%,var(--surface-2));border-radius:24px;padding:18px;outline:2px dashed color-mix(in srgb,var(--saffron) 55%,transparent);outline-offset:-8px;min-width:0}
+.wod{font-size:12px;letter-spacing:.12em;color:var(--saffron);font-weight:700}
+.streak{display:flex;align-items:baseline;gap:8px;font-family:var(--f-display)}
+.streak .fire{font-size:28px}
+.streak b{font-size:34px;font-weight:700;line-height:1}
+.streak span:last-child{color:var(--muted);font-size:15px}
+.streak.big{justify-content:center}
+.streak.big b{font-size:48px}
+.wodword{display:flex;flex-direction:column;align-items:center;gap:0;background:var(--surface);border:1px solid var(--line);border-radius:20px;padding:12px;text-align:center;min-width:0}
+.wodword .pic{font-size:44px;line-height:1.1}
+.wodword .w{font-family:var(--f-ar);font-size:32px;font-weight:700;line-height:1.5}
+.wodword .tr{font-family:var(--f-display);color:var(--indigo);font-size:17px}
+.wodword .he{color:var(--muted);font-size:14px}
+.quiz.daily .wodword{max-width:320px;width:100%}
+
+/* quick tiles */
+.qtiles{display:grid;grid-template-columns:repeat(auto-fill,minmax(200px,1fr));gap:12px;margin-bottom:26px}
+.qtile{display:flex;flex-direction:column;align-items:flex-start;gap:2px;text-align:start;background:color-mix(in srgb,var(--hue) var(--tint),var(--surface));border:1px solid color-mix(in srgb,var(--hue) 22%,transparent);border-radius:22px;padding:16px 18px;transition:transform .15s}
+.qtile:hover{transform:translateY(-3px)}
+.qtile .qi{font-size:34px;line-height:1.2;color:var(--hue);font-weight:700}
+.qtile .qi.ar{font-family:var(--f-kufi)}
+.qtile .qt{font-family:var(--f-display);font-weight:600;font-size:18px}
+.qtile .qs{font-size:13px;color:var(--muted)}
+
+/* level chips */
+.lvchips{display:flex;gap:6px;flex-wrap:wrap;margin-bottom:16px}
+.lvchip{border:1.5px solid var(--line);background:var(--surface);border-radius:999px;padding:7px 15px;font-size:14px}
+.lvchip:hover{border-color:var(--hue)}
+.lvchip[aria-pressed="true"]{background:var(--hue);color:var(--on-hue);border-color:var(--hue)}
+
+/* listening */
+.lcards{display:grid;grid-template-columns:repeat(auto-fill,minmax(220px,1fr));gap:14px}
+.lcard{position:relative;display:flex;flex-direction:column;align-items:flex-start;gap:4px;text-align:start;background:color-mix(in srgb,var(--hue) var(--tint),var(--surface));border:1px solid color-mix(in srgb,var(--hue) 22%,transparent);border-radius:24px;padding:18px;transition:transform .15s}
+.lcard:hover{transform:translateY(-3px)}
+.lcard .li{font-size:40px;line-height:1.2}
+.lcard .lt{font-family:var(--f-display);font-weight:600;font-size:19px}
+.lcard .ls{font-size:13px;color:var(--muted)}
+.lcard .badge{position:absolute;top:14px;left:14px;font-size:12px;font-weight:700;color:var(--good);background:var(--surface);border-radius:999px;padding:2px 9px}
+.bubble.lyric{align-self:center;text-align:center;align-items:center;border-radius:20px;max-width:100%;width:min(560px,100%);background:color-mix(in srgb,var(--plum) 7%,var(--surface))}
+.chat.song{gap:8px}
+
+/* typing */
+.tinput{display:block;width:100%;font-family:var(--f-ar);font-size:32px;font-weight:700;text-align:center;border:2px solid var(--line);border-radius:18px;padding:6px 12px;background:var(--surface-2);color:var(--ink);line-height:1.6}
+.tinput:focus{outline:none;border-color:var(--indigo)}
+.tinput.ok{border-color:var(--good);background:color-mix(in srgb,var(--good) 12%,var(--surface))}
+.tinput.no{border-color:var(--bad)}
+.kb{display:grid;gap:6px;margin-top:12px}
+.kbr{display:flex;gap:5px;justify-content:center;flex-wrap:wrap}
+.key{min-width:40px;height:46px;border:1px solid var(--line);background:var(--surface);border-radius:12px;font-size:23px;line-height:1;box-shadow:0 2px 0 var(--line);padding:0 6px}
+.key:active{transform:translateY(2px);box-shadow:none}
+.key.wide{font-family:var(--f-body);font-size:14px;padding:0 16px}
+.key:disabled{opacity:.5}
+.tfeed{margin-top:12px;text-align:center;font-size:16px;display:flex;align-items:center;justify-content:center;gap:10px;flex-wrap:wrap}
+.tfeed.ok{color:var(--good)} .tfeed.no{color:var(--bad)}
+.tfeed .answer{color:var(--ink)}
+
+/* letter forms */
+.forms{display:flex;gap:8px;flex-wrap:wrap}
+.form{background:var(--surface-2);border:1px solid var(--line);border-radius:14px;padding:2px 12px 6px;text-align:center;min-width:58px}
+.form .ar{display:block;font-size:34px;font-weight:700;line-height:1.5}
+.form small{display:block;color:var(--muted);font-size:11px}
+
+/* handwriting */
+.handgrid{display:grid;grid-template-columns:260px 1fr;gap:18px;align-items:start}
+.hcard{display:flex;flex-direction:column;align-items:center;gap:6px;background:var(--surface);border:1px solid var(--line);border-radius:24px;padding:18px;text-align:center;box-shadow:var(--lift);min-width:0}
+.hcard .pic{font-size:50px;line-height:1.1}
+.hcard .w{font-family:var(--f-ar);font-size:64px;font-weight:700;line-height:1.4;color:var(--accent)}
+.hcard .he{font-size:15px;color:var(--muted)}
+.hcard .tr{font-size:14px;color:var(--indigo)}
+.hcard .forms{justify-content:center}
+.hbest{font-size:15px}
+.padcol{min-width:0}
+.padwrap{position:relative;width:100%;aspect-ratio:16/10;max-width:100%;border-radius:24px;overflow:hidden;border:1px solid var(--line);background:var(--surface);box-shadow:var(--lift);outline:2px dashed color-mix(in srgb,var(--olive) 35%,transparent);outline-offset:-10px}
+.padwrap canvas{position:absolute;inset:0;width:100%;height:100%;display:block}
+#ink{touch-action:none;cursor:crosshair}
+.padbar{margin-top:12px}
+.hres{min-height:40px}
+.hscore{display:flex;align-items:center;gap:12px;flex-wrap:wrap;font-size:16px}
+.hscore .big{font-size:30px;letter-spacing:3px}
+
+/* tests */
+.tgrid{display:grid;grid-template-columns:repeat(auto-fill,minmax(210px,1fr));gap:14px;margin-bottom:24px}
+.tcard{display:flex;flex-direction:column;align-items:flex-start;gap:4px;text-align:start;background:var(--surface);border:1px solid var(--line);border-radius:24px;padding:16px;box-shadow:var(--lift);transition:transform .15s}
+.tcard:hover{transform:translateY(-3px)}
+.tcard .lbadge{width:56px;height:56px}
+.tcard .lbadge b{width:26px;height:26px;font-size:14px}
+.tcard .qi{font-size:44px;line-height:1.2}
+.tcard .tt{font-family:var(--f-display);font-weight:600;font-size:18px}
+.tcard .ts{color:var(--muted);font-size:14px}
+.tcard .tscore{font-size:14px;font-weight:600;color:var(--hue)}
+.tcard.pass{background:color-mix(in srgb,var(--good) 9%,var(--surface));border-color:color-mix(in srgb,var(--good) 35%,transparent)}
+.tcard.final{background:color-mix(in srgb,var(--saffron) 10%,var(--surface))}
+
+@media (max-width:760px){
+  .welcome{grid-template-columns:1fr;padding:20px 18px 44px}
+  .handgrid{grid-template-columns:1fr}
+  .hcard .w{font-size:52px}
+  .padwrap{aspect-ratio:4/3}
+  .nav{width:100%;justify-content:space-between}
+  .nav button{padding:8px 10px;font-size:14px}
+}
+@media (max-width:520px){
+  .key{min-width:28px;height:42px;font-size:19px;padding:0 3px}
+  .kbr{gap:3px}
+  .qtiles{grid-template-columns:1fr 1fr}
+  .mascot{font-size:52px}
+}
+</style>
+
+<div dir="rtl" lang="he" id="root">
+<div class="wrap">
+  <header class="top">
+    <button class="brand" id="homeBtn" aria-label="חזרה לדף הבית">
+      <span class="logo" id="logo"></span>
+      <span><h1>יאללה ערבית</h1><small class="ar">يلّا نحكي عربي</small></span>
+    </button>
+    <div class="topright">
+      <span class="chip" title="כוכבים מחידונים"><span class="s">★</span><span id="starCount">0</span></span>
+      <span class="chip" title="מבחני רמה שעברתם">🏆 <span id="cupCount">0</span>/5</span>
+      <button class="tgl" id="tglTr" aria-pressed="true" title="הצגה או הסתרה של התעתיק העברי">תעתיק</button>
+      <button class="tgl" id="tglHe" aria-pressed="true" title="הצגה או הסתרה של התרגום">תרגום</button>
+    </div>
+  </header>
+  <nav class="nav" id="nav" aria-label="ניווט ראשי">
+    <button data-nav="home">🏠 בית</button>
+    <button data-nav="daily">🌞 אתגר יומי</button>
+    <button data-nav="listen">🎧 האזנה</button>
+    <button data-nav="write">✍️ כתיבה</button>
+    <button data-nav="tests">🏆 מבחנים</button>
+  </nav>
+  <div id="notice" class="notice" hidden>
+    <span style="font-size:24px">🔈</span>
+    <span>לא הצלחנו לטעון את ההקלטות, ובמכשיר הזה גם אין קול בערבית. אפשר להמשיך ללמוד בעזרת התעתיק בעברית, ולנסות שוב מאוחר יותר.</span>
+    <button id="noticeX" aria-label="סגירה">✕</button>
+  </div>
+  <main id="app"></main>
+  <footer><span class="band" aria-hidden="true"></span>ערבית מדוברת (פלסטינית, כמו שמדברים בישראל). לכל מילה ומשפט יש הקלטה: לוחצים ושומעים. ההקלטות הן קול ממוחשב, ולכן ההגייה קרובה למדוברת אבל לא תמיד מושלמת. התעתיק בעברית הוא המדריך להגייה המדוברת. <span class="ar">بالتوفيق!</span></footer>
+</div>
+</div>
+<canvas id="fx" hidden></canvas>
+
+<script type="application/json" id="data">
+{
+"letters":[
+["ا","أَلِف","אליף","א","أرنب","ארנב","ארנב","🐇"],
+["ب","باء","בא","ב","بطة","בטה","ברווז","🦆"],
+["ت","تاء","תא","ת","تفاحة","תפאחה","תפוח","🍎"],
+["ث","ثاء","ת׳א","ת׳ – כמו th באנגלית (think). במדוברת הופכת לרוב ל־ת","ثعلب","ת׳עלב","שועל","🦊"],
+["ج","جيم","ג׳ים","ג׳ – כמו בג׳ירפה","جمل","ג׳מל","גמל","🐪"],
+["ح","حاء","חא","ח – מהגרון","حصان","חצאן","סוס","🐴"],
+["خ","خاء","ח׳א","ח׳ – כמו כ׳ רכה","خروف","ח׳רוף","כבש","🐑"],
+["د","دال","דאל","ד","دب","דב","דוב","🐻"],
+["ذ","ذال","ד׳אל","ד׳ – כמו th באנגלית (this). במדוברת הופכת לרוב ל־ד או ז","ذرة","ד׳רה","תירס","🌽"],
+["ر","راء","רא","ר מתגלגלת","روبوت","רובוט","רובוט","🤖"],
+["ز","زاي","זאי","ז","زرافة","זראפה","ג׳ירפה","🦒"],
+["س","سين","סין","ס","سمكة","סמכה","דג","🐟"],
+["ش","شين","שין","ש","شمس","שמס","שמש","☀️"],
+["ص","صاد","צאד","ס עבה (בתעתיק: צ)","صاروخ","צארוח׳","טיל","🚀"],
+["ض","ضاد","ד׳אד","ד עבה (בתעתיק: ד׳)","ضفدع","ד׳פדע","צפרדע","🐸"],
+["ط","طاء","טא","ת עבה (בתעתיק: ט)","طائرة","טאאירה","מטוס","✈️"],
+["ظ","ظاء","ט׳א","ד׳ עבה (בתעתיק: ט׳)","ظرف","ט׳רף","מעטפה","✉️"],
+["ع","عين","עין","ע – עמוקה מהגרון","عين","עין","עין","👁️"],
+["غ","غين","ע׳ין","ע׳ – כמו ר׳ צרפתית","غيمة","ע׳ימה","ענן","☁️"],
+["ف","فاء","פא","פ","فيل","פיל","פיל","🐘"],
+["ق","قاف","קאף","ק עמוקה. בעיר הופכת לרוב ל־א","قطة","קטה","חתול","🐱"],
+["ك","كاف","כאף","כ","كلب","כלב","כלב","🐶"],
+["ل","لام","לאם","ל","ليمون","לימון","לימון","🍋"],
+["م","ميم","מים","מ","موز","מוז","בננה","🍌"],
+["ن","نون","נון","נ","نحلة","נחלה","דבורה","🐝"],
+["ه","هاء","הא","ה","هدية","הדיה","מתנה","🎁"],
+["و","واو","ואו","ו","وردة","ורדה","ורד","🌹"],
+["ي","ياء","יא","י","يد","יד","יד","✋"]
+],
+"levels":[
+{"n":1,"t":"מתחילים","a":"مبتدئين","hue":"coral","desc":"מילים ראשונות: ברכות, מספרים, צבעים, חיות, משפחה, אוכל והגוף. מתאים גם לילדים מגיל 6.",
+"units":[
+{"id":"greetings","t":"שלום ונימוסים","a":"تحيّات","pic":"👋","tip":"על ״צבאח אלח׳יר״ (בוקר טוב) עונים ״צבאח א־נור״ (בוקר אור). על ״שוכרן״ (תודה) עונים ״עפוון״.","words":[
+["مرحبا","מרחבא","שלום","😊"],["أهلا وسهلا","אהלן וסהלן","ברוכים הבאים","🤗"],["صباح الخير","צבאח אלח׳יר","בוקר טוב","🌅"],["صباح النور","צבאח א־נור","בוקר אור (תשובה ל״בוקר טוב״)","☀️"],["مسا الخير","מסא אלח׳יר","ערב טוב","🌙"],["كيفك؟","כיפכ?","מה שלומך?","🙂"],["منيح","מניח","טוב","👍"],["الحمد لله","אלחמדללה","תודה לאל","😌"],["شكرًا","שוכרן","תודה","🙏"],["عفوًا","עפוון","בבקשה (תשובה לתודה)","💐"],["مع السلامة","מע א־סלאמה","להתראות","👋"],["آه","אה","כן","✅"],["لأ","לא","לא","❌"]]},
+{"id":"numbers","t":"מספרים 1–10","a":"أرقام","pic":"🔢","tip":"במדוברת אומרים ״תנין״ ו״תלאתה״. לערבית יש גם ספרות משלה: ١ ٢ ٣.","words":[
+["واحد","ואחד","אחד","1️⃣","١"],["تنين","תנין","שתיים","2️⃣","٢"],["تلاتة","תלאתה","שלוש","3️⃣","٣"],["أربعة","ארבעה","ארבע","4️⃣","٤"],["خمسة","ח׳מסה","חמש","5️⃣","٥"],["ستّة","סתה","שש","6️⃣","٦"],["سبعة","סבעה","שבע","7️⃣","٧"],["تمانية","תמניה","שמונה","8️⃣","٨"],["تسعة","תסעה","תשע","9️⃣","٩"],["عشرة","עשרה","עשר","🔟","١٠"]]},
+{"id":"colors","t":"צבעים","a":"ألوان","pic":"🎨","tip":"הרבה צבעים מתחילים ב־א: אחמר, אזרק, אצפר, אח׳דר. ככה קל לזהות שזו מילה של צבע.","words":[
+["أحمر","אחמר","אדום","🔴"],["أزرق","אזרק","כחול","🔵"],["أصفر","אצפר","צהוב","🟡"],["أخضر","אח׳דר","ירוק","🟢"],["أسود","אסוד","שחור","⚫"],["أبيض","אביד","לבן","⚪"],["برتقاني","ברתקאני","כתום","🟠"],["بنفسجي","בנפסג׳י","סגול","🟣"],["بنّي","בני","חום","🟤"],["زهري","זהרי","ורוד","🌸"]]},
+{"id":"animals","t":"חיות","a":"حيوانات","pic":"🦁","tip":"פיל בערבית זה פיל, וגמל זה ג׳מל. ערבית ועברית הן שפות אחיות, ולכן הרבה מילים דומות.","words":[
+["قطّة","קטה","חתול","🐱"],["كلب","כלב","כלב","🐶"],["أسد","אסד","אריה","🦁"],["فيل","פיל","פיל","🐘"],["سمكة","סמכה","דג","🐟"],["عصفور","עצפור","ציפור","🐦"],["حصان","חצאן","סוס","🐴"],["بقرة","בקרה","פרה","🐄"],["جاجة","ג׳אג׳ה","תרנגולת","🐔"],["أرنب","ארנב","ארנב","🐇"],["جمل","ג׳מל","גמל","🐪"]]},
+{"id":"family","t":"המשפחה שלי","a":"العيلة","pic":"👨‍👩‍👧","tip":"הסיומת ״־י״ אומרת ״שלי״, כמו בעברית: ״סידי״ = סבא שלי, ״אח׳תי״ = אחותי.","words":[
+["ماما","מאמא","אמא","👩"],["بابا","באבא","אבא","👨"],["أخوي","אח׳וי","אח שלי","👦"],["أختي","אח׳תי","אחות שלי","👧"],["سيدي","סידי","סבא שלי","👴"],["ستّي","סתי","סבתא שלי","👵"],["بيبي","ביבי","תינוק","👶"],["عيلة","עילה","משפחה","👨‍👩‍👧"]]},
+{"id":"food","t":"אוכל","a":"أكل","pic":"🥙","tip":"״ענב״ זה ענבים, ו״חליב״ דומה ל״חלב״. ובפלאפל ובחומוס אתם כבר מומחים!","words":[
+["تفّاحة","תפאחה","תפוח","🍎"],["موزة","מוזה","בננה","🍌"],["خبز","ח׳ובז","לחם","🍞"],["ميّ","מיי","מים","💧"],["حليب","חליב","חלב","🥛"],["بيضة","ביד׳ה","ביצה","🥚"],["جبنة","ג׳בנה","גבינה","🧀"],["عنب","ענב","ענבים","🍇"],["فلافل","פלאפל","פלאפל","🧆"],["حمّص","חומוס","חומוס","🥣"]]},
+{"id":"body","t":"הגוף שלי","a":"جسمي","pic":"🖐️","tip":"במדוברת אומרים ״תם״ לפה ו״דינה״ לאוזן, מילים שלא תמצאו בערבית הספרותית.","words":[
+["راس","ראס","ראש","🧑"],["عين","עין","עין","👁️"],["دينة","דינה","אוזן","👂"],["مناخير","מנאח׳יר","אף","👃"],["تمّ","תם","פה","👄"],["إيد","איד","יד","✋"],["إجر","אִג׳ר","רגל","🦵"],["سنان","סנאן","שיניים","🦷"],["قلب","קלב","לב","❤️"],["شعر","שער","שיער","💇"]]}
+],
+"dialog":{"t":"נעים מאוד","lines":[
+["סאמי","مرحبا!","מרחבא!","שלום!"],["לינא","أهلا! كيفك؟","אהלן! כיפכ?","היי! מה שלומך?"],["סאמי","منيح، الحمد لله. وإنتِ؟","מניח, אלחמדללה. ו־אִנתי?","טוב, תודה לאל. ואת?"],["לינא","منيحة. شو اسمك؟","מניחה. שו אסמכ?","טובה. מה שמך?"],["סאמי","اسمي سامي. وإنتِ؟","אִסמי סאמי. ו־אִנתי?","שמי סאמי. ואת?"],["לינא","اسمي لينا. تشرّفنا!","אִסמי לינא. תשרפנא!","שמי לינא. נעים מאוד!"],["סאמי","تشرّفنا! مع السلامة.","תשרפנא! מע א־סלאמה.","נעים מאוד! להתראות."]],
+"qs":[["מה שמה של הילדה?","לינא","סאמי","מאמא","סתי"],["איך מרגיש סאמי?","טוב","עייף","עצוב","רעב"],["מה פירוש ״תשרפנא״?","נעים מאוד","להתראות","תודה","בוקר טוב"]]},
+"listen":[
+{"type":"song","t":"שיר הצבעים","lines":[["","أحمر أحمر زيّ التفّاحة","אחמר אחמר זי א־תפאחה","אדום אדום כמו התפוח"],["","أصفر أصفر زيّ الموزة","אצפר אצפר זי אל־מוזה","צהוב צהוב כמו הבננה"],["","أخضر أخضر زيّ الشجرة","אח׳דר אח׳דר זי א־שג׳רה","ירוק ירוק כמו העץ"],["","أزرق أزرق زيّ البحر","אזרק אזרק זי אל־בחר","כחול כחול כמו הים"],["","ألوان ألوان، يلّا نغنّي!","אלואן אלואן, יאללה נע׳ני!","צבעים צבעים, יאללה נשיר!"]],"qs":[["באיזה צבע הבננה בשיר?","צהוב","אדום","ירוק","כחול"],["מה כחול בשיר?","הים","העץ","התפוח","השמש"],["מה פירוש ״זי״?","כמו","גם","אבל","עם"]]},
+{"type":"podcast","t":"אני סאמי","lines":[["סאמי","مرحبا! أنا سامي.","מרחבא! אנא סאמי.","שלום! אני סאמי."],["סאמי","عمري سبع سنين.","עומרי סבע סנין.","אני בן שבע."],["סאמי","عندي أخت زغيرة اسمها لينا.","ענדי אח׳ת זע׳ירה אִסמהא לינא.","יש לי אחות קטנה בשם לינא."],["סאמי","بحبّ القطط والفلافل.","בחב אל־קטט ו־אל־פלאפל.","אני אוהב חתולים ופלאפל."],["סאמי","لوني المفضّل أزرق.","לוני אל־מפדל אזרק.","הצבע האהוב עליי כחול."],["סאמי","يلّا، مع السلامة!","יאללה, מע א־סלאמה!","יאללה, להתראות!"]],"qs":[["בן כמה סאמי?","7","6","10","8"],["איך קוראים לאחות שלו?","לינא","מרים","נור","סתי"],["מה הצבע האהוב על סאמי?","כחול","אדום","ירוק","צהוב"],["מה סאמי אוהב?","חתולים ופלאפל","כלבים וחומוס","סוסים ולחם","דגים וגבינה"]]},
+{"type":"comedy","t":"החתולה שמדברת ערבית","lines":[["ילד","ماما، القطّة بتحكي عربي!","מאמא, אל־קטה בתחכי ערבי!","אמא, החתולה מדברת ערבית!"],["אמא","عن جدّ؟ شو بتقول؟","ען ג׳ד? שו בתקול?","באמת? מה היא אומרת?"],["ילד","بتقول «مياو»!","בתקול «מיאו»!","היא אומרת ״מיאו״!"],["אמא","«مياو» مش عربي يا حبيبي.","«מיאו» מש ערבי יא חביבי.","״מיאו״ זה לא ערבית, מתוק."],["ילד","لأ، هي بتقول «مياو» بس بلهجة فلسطينية!","לא, הי בתקול «מיאו» בס בלהג׳ה פלסטיניה!","לא, היא אומרת ״מיאו״, אבל במבטא פלסטיני!"]],"qs":[["מי מדברת ערבית, לפי הילד?","החתולה","אמא","סבתא","הכלב"],["מה החתולה אומרת?","מיאו","מרחבא","שוכרן","האו"],["מה פירוש ״ען ג׳ד?״","באמת?","מה שלומך?","איפה?","למה?"]]}
+],
+"riddles":[
+{"ar":"بقول مياو، مين أنا؟","tr":"בקול מיאו, מין אנא?","he":"אני אומר מיאו. מי אני?","opts":[["قطّة","קטה","חתול"],["كلب","כלב","כלב"],["بقرة","בקרה","פרה"],["أسد","אסד","אריה"]]},
+{"ar":"لوني أصفر وطعمي حلو، شو أنا؟","tr":"לוני אצפר וטעמי חלו, שו אנא?","he":"הצבע שלי צהוב והטעם שלי מתוק. מה אני?","opts":[["موزة","מוזה","בננה"],["خبز","ח׳ובז","לחם"],["جبنة","ג׳בנה","גבינה"],["ميّ","מיי","מים"]]},
+{"ar":"عندي خرطوم طويل، مين أنا؟","tr":"ענדי ח׳רטום טויל, מין אנא?","he":"יש לי חדק ארוך. מי אני?","opts":[["فيل","פיל","פיל"],["جمل","ג׳מל","גמל"],["حصان","חצאן","סוס"],["أرنب","ארנב","ארנב"]]},
+{"ar":"بنشوف فيها، شو هي؟","tr":"בנשוף פיהא, שו הי?","he":"רואים בעזרתה. מה היא?","opts":[["عين","עין","עין"],["إيد","איד","יד"],["إجر","אִג׳ר","רגל"],["دينة","דינה","אוזן"]]}
+]},
+{"n":2,"t":"יום־יום","a":"كل يوم","hue":"sky","desc":"מספרים גדולים, ימים ושעות, הבית, בית הספר, בגדים, רגשות ומזג אוויר.",
+"units":[
+{"id":"numbers2","t":"מספרים גדולים","a":"أرقام كبيرة","pic":"💯","tip":"11–19 נגמרים ב־״עש״: אִחדעש, אִטנעש. העשרות נגמרות ב־״ין״: עשרין, תלאתין.","words":[
+["إحدعش","אִחדעש","אחת־עשרה","11"],["اطنعش","אִטנעש","שתים־עשרה","12"],["خمستعش","ח׳מסטעש","חמש־עשרה","15"],["عشرين","עשרין","עשרים","20"],["تلاتين","תלאתין","שלושים","30"],["أربعين","ארבעין","ארבעים","40"],["خمسين","ח׳מסין","חמישים","50"],["مية","מיה","מאה","100"],["ميتين","מיתין","מאתיים","200"],["ألف","אלף","אלף","1000"]]},
+{"id":"days","t":"ימי השבוע","a":"أيّام الأسبوع","pic":"📅","tip":"שמות הימים הם מספרים: ״אל־אחד״ (אחד) הוא יום ראשון, ״אל־אִתנין״ (שתיים) הוא יום שני. בדיוק כמו בעברית.","words":[
+["الأحد","אל־אחד","יום ראשון"],["الإتنين","אל־אִתנין","יום שני"],["التلاتا","א־תלאתא","יום שלישי"],["الأربعا","אל־ארבעא","יום רביעי"],["الخميس","אל־ח׳מיס","יום חמישי"],["الجمعة","אל־ג׳ומעה","יום שישי"],["السبت","א־סבת","שבת"],["اليوم","אליום","היום"],["بكرة","בוכרה","מחר"],["مبارح","מבארח","אתמול"],["أسبوع","אוסבוע","שבוע"]]},
+{"id":"time","t":"הזמן והשעה","a":"الوقت","pic":"⏰","tip":"״הלא״ (עכשיו) היא אחת המילים הכי שימושיות בערבית המדוברת.","words":[
+["قدّيش الساعة؟","קדיש א־סאעה?","מה השעה?","⏰"],["الصبح","א־צובח","בוקר","🌅"],["الضهر","א־דוהר","צהריים","🌞"],["المسا","אל־מסא","ערב","🌆"],["الليل","א־ליל","לילה","🌙"],["ساعة","סאעה","שעה / שעון","⌚"],["دقيقة","דקיקה","דקה","⏱️"],["هلّأ","הלא","עכשיו","⏳"],["بكّير","בכיר","מוקדם","🐓"],["متأخّر","מתאח׳ר","מאוחר","🐌"]]},
+{"id":"house","t":"הבית","a":"البيت","pic":"🏠","tip":"״באב״ (דלת) קרובה ל״בבא״ בארמית, שפירושה שער. זוכרים את ״בבא קמא״?","words":[
+["بيت","בית","בית","🏠"],["باب","באב","דלת","🚪"],["كرسي","כורסי","כיסא","🪑"],["تخت","תח׳ת","מיטה","🛏️"],["مطبخ","מטבח׳","מטבח","🍳"],["حمّام","חמאם","אמבטיה / שירותים","🛁"],["تلفزيون","תלפזיון","טלוויזיה","📺"],["تلفون","תלפון","טלפון","📱"],["مفتاح","מפתאח","מפתח","🔑"],["ضوّ","דו","אור / מנורה","💡"]]},
+{"id":"school","t":"בית הספר","a":"المدرسة","pic":"🏫","tip":"״מדרסה״ ו״מדרש״ באות מאותו שורש: ד־ר־ס בערבית, ד־ר־ש בעברית.","words":[
+["مدرسة","מדרסה","בית ספר","🏫"],["معلّمة","מעלמה","מורה","👩‍🏫"],["طالب","טאלב","תלמיד","🧑‍🎓"],["كتاب","כתאב","ספר","📖"],["دفتر","דפתר","מחברת","📓"],["قلم","קלם","עט / עיפרון","✏️"],["شنطة","שנטה","תיק","🎒"],["مسطرة","מסטרה","סרגל","📏"],["مقصّ","מקץ","מספריים","✂️"],["امتحان","אמתחאן","מבחן","📝"]]},
+{"id":"clothes","t":"בגדים","a":"أواعي","pic":"👕","tip":"״אואעי״ (בגדים) ו״כנדרה״ (נעליים) הן מילים מדוברות. בערבית הספרותית אומרים אחרת.","words":[
+["قميص","קמיץ","חולצה","👕"],["بنطلون","בנטלון","מכנסיים","👖"],["فستان","פוסתאן","שמלה","👗"],["كندرة","כנדרה","נעליים","👟"],["جرابات","ג׳ראבאת","גרביים","🧦"],["طاقية","טאקיה","כובע","🧢"],["جاكيت","ג׳אכית","מעיל","🧥"],["نضّارات","נדאראת","משקפיים","👓"]]},
+{"id":"feelings","t":"רגשות","a":"مشاعر","pic":"😊","tip":"הרבה רגשות נגמרים ב־״אן״: ג׳ועאן, עטשאן, תעבאן. לבת מוסיפים ״ה״: ג׳ועאנה, תעבאנה.","words":[
+["مبسوط","מבסוט","שמח","😄"],["زعلان","זעלאן","עצוב / נעלב","😢"],["زهقان","זהקאן","משועמם","🥱"],["تعبان","תעבאן","עייף","😫"],["جوعان","ג׳ועאן","רעב","🤤"],["عطشان","עטשאן","צמא","🥤"],["خايف","ח׳איף","מפחד","😨"],["معصّب","מעצב","עצבני","😠"],["مريض","מריד","חולה","🤒"]]},
+{"id":"weather","t":"מזג אוויר","a":"الطقس","pic":"🌦️","tip":"״שתא״ פירושה גם גשם וגם חורף.","words":[
+["شوب","שוב","חם","🥵"],["برد","ברד","קר","🥶"],["شتا","שתא","גשם / חורף","🌧️"],["شمس","שמס","שמש","☀️"],["غيم","ע׳ים","עננים","☁️"],["هوا","הוא","רוח","💨"],["تلج","תלג׳","שלג","❄️"],["صيف","ציף","קיץ","🏖️"],["ربيع","רביע","אביב","🌷"],["خريف","ח׳ריף","סתיו","🍂"]]}
+],
+"dialog":{"t":"בוקר גשום","lines":[
+["לינא","صباح الخير يا ماما!","צבאח אלח׳יר יא מאמא!","בוקר טוב אמא!"],["אמא","صباح النور حبيبتي. كيف نمتِ؟","צבאח א־נור חביבתי. כיף נמתי?","בוקר אור, מתוקה. איך ישנת?"],["לינא","منيح، بس أنا تعبانة شوي.","מניח, בס אנא תעבאנה שוי.","טוב, אבל אני קצת עייפה."],["אמא","اليوم في شتا، البسي جاكيت.","אליום פי שתא, אִלבסי ג׳אכית.","היום יורד גשם, תלבשי מעיל."],["לינא","ماشي. وين الشنطة؟","מאשי. וין א־שנטה?","בסדר. איפה התיק?"],["אמא","الشنطة جنب الباب.","א־שנטה ג׳נב אל־באב.","התיק ליד הדלת."]],
+"qs":[["איך מזג האוויר היום?","גשום","חם","יורד שלג","שמשי"],["מה לינא צריכה ללבוש?","מעיל","שמלה","כובע","משקפיים"],["איפה התיק?","ליד הדלת","במטבח","על המיטה","בבית הספר"],["איך לינא מרגישה?","קצת עייפה","שמחה מאוד","רעבה","מפחדת"]]},
+"listen":[
+{"type":"song","t":"שיר ימי השבוע","lines":[["","الأحد والإتنين، بنروح ع المدرسة","אל־אחד ו־אל־אִתנין, בנרוח ע אל־מדרסה","ראשון ושני, הולכים לבית הספר"],["","التلاتا والأربعا، بنقرا وبنكتب","א־תלאתא ו־אל־ארבעא, בנקרא ובנכתב","שלישי ורביעי, קוראים וכותבים"],["","الخميس بنلعب بالحارة","אל־ח׳מיס בנלעב באל־חארה","בחמישי משחקים בשכונה"],["","الجمعة والسبت عطلة!","אל־ג׳ומעה ו־א־סבת עוטלה!","שישי ושבת חופש!"],["","سبع أيّام بالأسبوع، يلّا كمان مرّة!","סבע איאם באל־אוסבוע, יאללה כמאן מרה!","שבעה ימים בשבוע, יאללה עוד פעם!"]],"qs":[["מה עושים ביום חמישי?","משחקים בשכונה","קוראים וכותבים","הולכים לים","ישנים"],["אילו ימים הם חופש?","שישי ושבת","ראשון ושני","שלישי ורביעי","רק חמישי"],["כמה ימים יש בשבוע לפי השיר?","שבעה","חמישה","שישה","עשרה"]]},
+{"type":"podcast","t":"היום שלי","lines":[["נור","كل يوم بصحى الساعة سبعة الصبح.","כל יום בצחא א־סאעה סבעה א־צובח.","כל יום אני קמה בשבע בבוקר."],["נור","بلبس أواعيّ وباكل فطور.","בלבס אואעיי ובאכל פטור.","אני מתלבשת ואוכלת ארוחת בוקר."],["נור","بروح ع المدرسة مع أخوي.","ברוח ע אל־מדרסה מע אח׳וי.","אני הולכת לבית הספר עם אחי."],["נור","بعد المدرسة بكون جوعانة كتير.","בעד אל־מדרסה בכון ג׳ועאנה כתיר.","אחרי בית הספר אני רעבה מאוד."],["נור","بالليل بقرا كتاب وبنام بكّير.","באל־ליל בקרא כתאב ובנאם בכיר.","בלילה אני קוראת ספר והולכת לישון מוקדם."]],"qs":[["באיזו שעה נור קמה?","בשבע","בשש","בעשר","בצהריים"],["עם מי היא הולכת לבית הספר?","עם אחיה","עם סבתא","לבד","עם המורה"],["איך היא מרגישה אחרי בית הספר?","רעבה מאוד","עייפה","עצובה","צמאה"],["מה היא עושה בלילה?","קוראת ספר","רואה טלוויזיה","משחקת בחוץ","מבשלת"]]},
+{"type":"comedy","t":"שוחים בגשם","lines":[["אבא","وين رايح؟ برّا في شتا!","וין ראיח? ברא פי שתא!","לאן אתה הולך? בחוץ יורד גשם!"],["בן","رايح أسبح بالبركة.","ראיח אסבח באל־בירכה.","אני הולך לשחות בבריכה."],["אבא","بالشتا؟!","באל־שתא?!","בגשם?!"],["בן","آه، هيك مش مشكلة إذا تبلّلت!","אה, היכ מש משכלה אִזא תבללת!","כן, ככה זה לא בעיה אם אני נרטב!"]],"qs":[["מה מזג האוויר?","גשם","חם מאוד","שלג","שמש"],["מה הבן רוצה לעשות?","לשחות בבריכה","לשחק כדור","לישון","ללכת לבית הספר"],["למה זה מצחיק?","כי בבריכה ממילא נרטבים","כי אבא לא יודע לשחות","כי אין מים בבריכה","כי זה יום שבת"]]}
+],
+"riddles":[
+{"ar":"إشي إلو عقارب وما بيلسع، شو هو؟","tr":"אִשי אִלו עקארב ומא בילסע, שו הו?","he":"יש לו עקרבים (מחוגים) והוא לא עוקץ. מה זה?","opts":[["ساعة","סאעה","שעון"],["قلم","קלם","עט"],["مفتاح","מפתאח","מפתח"],["كتاب","כתאב","ספר"]]},
+{"ar":"إشي إلو سنان وما بيعضّ، شو هو؟","tr":"אִשי אִלו סנאן ומא ביעד, שו הו?","he":"יש לו שיניים והוא לא נושך. מה זה?","opts":[["مشط","משט","מסרק"],["كلب","כלב","כלב"],["مقصّ","מקץ","מספריים"],["كرسي","כורסי","כיסא"]]},
+{"ar":"بنلبسها بإجرينا قبل الكندرة، شو هي؟","tr":"בנלבסהא באִג׳רינא קבל אל־כנדרה, שו הי?","he":"לובשים אותן על הרגליים לפני הנעליים. מה הן?","opts":[["جرابات","ג׳ראבאת","גרביים"],["طاقية","טאקיה","כובע"],["قميص","קמיץ","חולצה"],["نضّارات","נדאראת","משקפיים"]]},
+{"ar":"بيجي بعد الإتنين وقبل الأربعا، شو هو؟","tr":"ביג׳י בעד אל־אִתנין וקבל אל־ארבעא, שו הו?","he":"בא אחרי יום שני ולפני יום רביעי. מה הוא?","opts":[["التلاتا","א־תלאתא","יום שלישי"],["الخميس","אל־ח׳מיס","יום חמישי"],["الأحد","אל־אחד","יום ראשון"],["السبت","א־סבת","שבת"]]}
+]},
+{"n":3,"t":"מדברים","a":"منحكي","hue":"plum","desc":"מילות שאלה, כינויי גוף, ״בדי״ ו״ענדי״, פעלים בהווה ומשפטים ראשונים לשיחה.",
+"units":[
+{"id":"questions","t":"מילות שאלה","a":"أسئلة","pic":"❓","tip":"מילת השאלה יכולה לבוא בהתחלה או בסוף: ״וין סאכן?״ וגם ״סאכן וין?״. שתיהן נכונות.","words":[
+["شو؟","שו?","מה?"],["مين؟","מין?","מי?"],["وين؟","וין?","איפה?"],["ليش؟","ליש?","למה?"],["كيف؟","כיף?","איך?"],["إيمتى؟","אימתא?","מתי?"],["قدّيش؟","קדיש?","כמה?"],["من وين؟","מן וין?","מאיפה?"],["شو اسمك؟","שו אִסמכ?","מה שמך?"],["من وين إنتَ؟","מן וין אִנתֶ?","מאיפה אתה?"],["وين ساكن؟","וין סאכן?","איפה אתה גר?"],["قدّيش عمرك؟","קדיש עומרכ?","בן כמה אתה?"]]},
+{"id":"pronouns","t":"אני, אתה, היא","a":"ضمائر","pic":"🧑‍🤝‍🧑","tip":"״אִנתֶ״ זה אתה ו״אִנתִי״ זה את, ממש כמו בעברית!","words":[
+["أنا","אנא","אני"],["إنتَ","אִנתֶ","אתה"],["إنتِ","אִנתִי","את"],["هو","הו","הוא"],["هي","הי","היא"],["إحنا","אִחנא","אנחנו"],["إنتو","אִנתו","אתם / אתן"],["همّ","הֻמֶּ","הם / הן"],["هاد بيتي","האד ביתי","זה הבית שלי"],["هاي أختي","האי אח׳תי","זאת אחותי"],["هاد صاحبي","האד צאחבי","זה החבר שלי"]]},
+{"id":"want","t":"רוצה, אוהב, יש לי","a":"بدّي وعندي","pic":"💭","tip":"״בדי״ (אני רוצה) היא מילת הקסם של הערבית המדוברת. ״בדי מיי״ = אני רוצה מים.","words":[
+["بدّي","בדי","אני רוצה"],["بدّك؟","בדכ?","אתה רוצה?"],["بحبّ","בחב","אני אוהב"],["ما بحبّ","מא בחב","אני לא אוהב"],["عندي","ענדי","יש לי"],["ما عندي","מא ענדי","אין לי"],["في","פי","יש"],["ما في","מא פי","אין"],["بدّي أشرب ميّ","בדי אשרב מיי","אני רוצה לשתות מים"],["عندي أخ وأخت","ענדי אח׳ ואוח׳ת","יש לי אח ואחות"],["بحبّ الفلافل كتير","בחב אל־פלאפל כתיר","אני מאוד אוהב פלאפל"],["في عندك وقت؟","פי ענדכ וקת?","יש לך זמן?"]]},
+{"id":"verbs","t":"פעלים בהווה","a":"أفعال","pic":"🏃","tip":"בהווה מוסיפים ״ב״ בהתחלה: ״באכל״ = אני אוכל, ״בשרב״ = אני שותה.","words":[
+["بروح","ברוח","אני הולך"],["باكل","באכל","אני אוכל"],["بشرب","בשרב","אני שותה"],["بنام","בנאם","אני ישן"],["بلعب","בלעב","אני משחק"],["بقرا","בקרא","אני קורא"],["بكتب","בכתב","אני כותב"],["بحكي","בחכי","אני מדבר"],["بشوف","בשוף","אני רואה"],["بعرف","בערף","אני יודע"],["بفهم","בפהם","אני מבין"],["بحكي عربي شوي","בחכי ערבי שוי","אני מדבר קצת ערבית"],["ما بفهم","מא בפהם","אני לא מבין"],["ممكن تحكي شوي شوي؟","ממכן תחכי שוי שוי?","אפשר לדבר לאט?"]]},
+{"id":"phrases","t":"מילים שימושיות","a":"كلمات مفيدة","pic":"💬","tip":"״יאללה״ ו״ח׳לאץ״ עברו גם לעברית. עכשיו אתם יודעים מאיפה הן באו!","words":[
+["يلّا","יאללה","יאללה / קדימה"],["تعال","תעאל","בוא"],["استنّى","אִסתנא","חכה"],["لحظة","לחט׳ה","רגע"],["خلص","ח׳לץ","די / נגמר"],["ماشي","מאשי","בסדר"],["أكيد","אכיד","בטח"],["مش عارف","מש עארף","אני לא יודע"],["مزبوط","מזבוט","נכון"],["عن جدّ؟","ען ג׳ד?","באמת?"],["كمان مرّة","כמאן מרה","עוד פעם"]]}
+],
+"dialog":{"t":"בהפסקה","lines":[
+["עומר","شو بدّك تاكل؟","שו בדכ תאכל?","מה אתה רוצה לאכול?"],["יונתן","بدّي فلافل. وإنتَ؟","בדי פלאפל. ו־אִנתֶ?","אני רוצה פלאפל. ואתה?"],["עומר","أنا بحبّ الحمّص أكتر.","אנא בחב אל־חומוס אכתר.","אני אוהב חומוס יותר."],["יונתן","في عندك مصاري؟","פי ענדכ מצארי?","יש לך כסף?"],["עומר","آه، عندي عشرين شيكل.","אה, ענדי עשרין שיקל.","כן, יש לי עשרים שקל."],["יונתן","تمام، يلّا نروح!","תמאם, יאללה נרוח!","מצוין, יאללה נלך!"]],
+"qs":[["מה יונתן רוצה לאכול?","פלאפל","חומוס","לחם","ביצה"],["מה עומר אוהב יותר?","חומוס","פלאפל","גבינה","בננה"],["כמה כסף יש לעומר?","20 שקל","10 שקלים","100 שקל","אין לו כסף"],["מה פירוש ״מצארי״?","כסף","זמן","אוכל","חברים"]]},
+"listen":[
+{"type":"song","t":"שו בדכ?","lines":[["","شو بدّك؟ شو بدّك؟","שו בדכ? שו בדכ?","מה אתה רוצה? מה אתה רוצה?"],["","بدّي ميّ وبدّي خبز","בדי מיי ובדי ח׳ובז","אני רוצה מים ואני רוצה לחם"],["","وين رايح؟ وين رايح؟","וין ראיח? וין ראיח?","לאן אתה הולך? לאן אתה הולך?"],["","رايح ع البيت عند ستّي","ראיח ע אל־בית ענד סתי","הולך הביתה, לסבתא שלי"],["","مين معك؟ مين معك؟","מין מעכ? מין מעכ?","מי איתך? מי איתך?"],["","معي صاحبي، يلّا نروح!","מעי צאחבי, יאללה נרוח!","החבר שלי איתי, יאללה נלך!"]],"qs":[["מה הוא רוצה?","מים ולחם","פלאפל וחומוס","חלב ועוגה","כלום"],["לאן הוא הולך?","לסבתא שלו","לבית הספר","לים","לשוק"],["מי איתו?","החבר שלו","אחותו","אמא","אף אחד"]]},
+{"type":"podcast","t":"החברה החדשה שלי","lines":[["דנה","اليوم بدّي أحكيلكم عن صاحبتي الجديدة.","אליום בדי אחכילכום ען צאחבתי אל־ג׳דידה.","היום אני רוצה לספר לכם על החברה החדשה שלי."],["דנה","اسمها مريم، وهي من حيفا.","אִסמהא מרים, ו־הי מן חיפא.","קוראים לה מרים, והיא מחיפה."],["דנה","مريم بتحكي عربي وعبري.","מרים בתחכי ערבי ועברי.","מרים מדברת ערבית ועברית."],["דנה","بتحبّ ترسم وتلعب كرة.","בתחב תרסם ותלעב כורה.","היא אוהבת לצייר ולשחק כדור."],["דנה","كل يوم بنروح سوا ع المدرسة.","כל יום בנרוח סוא ע אל־מדרסה.","כל יום אנחנו הולכות ביחד לבית הספר."],["דנה","أنا مبسوطة كتير إنّه عندي صاحبة زيّها.","אנא מבסוטה כתיר אִנו ענדי צאחבה זיהא.","אני מאוד שמחה שיש לי חברה כמוה."]],"qs":[["מאיפה מרים?","מחיפה","מירושלים","מעכו","מנצרת"],["אילו שפות מרים מדברת?","ערבית ועברית","רק ערבית","אנגלית וערבית","רק עברית"],["מה מרים אוהבת לעשות?","לצייר ולשחק כדור","לבשל ולשיר","לקרוא ולישון","לשחות ולרקוד"],["מה פירוש ״סוא״?","ביחד","מהר","מחר","לבד"]]},
+{"type":"comedy","t":"תייר במכולת","lines":[["תייר","مرحبا، ممكن تحكي شوي شوي؟","מרחבא, ממכן תחכי שוי שוי?","שלום, אפשר לדבר לאט?"],["מוכר","أكيد! شو بدّك؟","אכיד! שו בדכ?","בטח! מה אתה רוצה?"],["תייר","بدّي... بدّي... شو اسمه؟","בדי... בדי... שו אִסמו?","אני רוצה... אני רוצה... איך קוראים לזה?"],["מוכר","فلافل؟ حمّص؟ ميّ؟","פלאפל? חומוס? מיי?","פלאפל? חומוס? מים?"],["תייר","لأ... بدّي أتعلّم عربي!","לא... בדי אתעלם ערבי!","לא... אני רוצה ללמוד ערבית!"],["מוכר","هاد مش بالدكّانة يا زلمة! روح ع «يلّا عربي»!","האד מש באל־דכאנה יא זלמה! רוח ע «יאללה ערבי»!","את זה לא מוכרים במכולת, בנאדם! לך ל״יאללה ערבית״!"]],"qs":[["מה התייר ביקש בהתחלה?","שידברו לאט","כוס מים","פלאפל","הנחה"],["מה הוא רצה בסוף?","ללמוד ערבית","לקנות חומוס","למצוא תחנה","לשתות מים"],["לאן המוכר שולח אותו?","ל״יאללה ערבית״","לרופא","לשוק","הביתה"]]}
+],
+"riddles":[
+{"ar":"إشي كل ما أخدت منه بيكبر، شو هو؟","tr":"אִשי כל מא אח׳דת מנו ביכבר, שו הו?","he":"ככל שלוקחים ממנו יותר, הוא נעשה גדול יותר. מה זה?","opts":[["حفرة","חפרה","בור"],["بيت","בית","בית"],["شجرة","שג׳רה","עץ"],["بحر","בחר","ים"]]},
+{"ar":"إلو ورق وما هو شجرة، شو هو؟","tr":"אִלו ורק ומא הו שג׳רה, שו הו?","he":"יש לו דפים (עלים) והוא לא עץ. מה זה?","opts":[["كتاب","כתאב","ספר"],["قلم","קלם","עט"],["شنطة","שנטה","תיק"],["باب","באב","דלת"]]},
+{"ar":"إلو راس وما إلو عيون، شو هو؟","tr":"אִלו ראס ומא אִלו עיון, שו הו?","he":"יש לו ראש ואין לו עיניים. מה זה?","opts":[["دبّوس","דבוס","סיכה"],["سمكة","סמכה","דג"],["عصفور","עצפור","ציפור"],["بيبي","ביבי","תינוק"]]},
+{"ar":"بدّك تعرف المكان، شو بتسأل؟","tr":"בדכ תערף אל־מכאן, שו בתסאל?","he":"אתם רוצים לדעת את המקום. מה תשאלו?","opts":[["وين؟","וין?","איפה?"],["مين؟","מין?","מי?"],["إيمتى؟","אימתא?","מתי?"],["ليش؟","ליש?","למה?"]]}
+]},
+{"n":4,"t":"מתקדמים","a":"متقدّمين","hue":"olive","desc":"עבר ועתיד, שלילה, מילות קישור, קניות בשוק, כיוונים ואצל הרופא.",
+"units":[
+{"id":"past","t":"זמן עבר","a":"الماضي","pic":"⏪","tip":"בעבר, ״אני״ נגמר ב־״ת״: רוחת, אכלת, שרבת. כמו ״הלכתי״ בעברית.","words":[
+["رحت","רוחת","הלכתי"],["أكلت","אכלת","אכלתי"],["شربت","שרבת","שתיתי"],["شفت","שופת","ראיתי"],["نمت","נמת","ישנתי"],["حكيت","חכית","דיברתי"],["اشتريت","אִשתרית","קניתי"],["كنت","כונת","הייתי"],["مبارح رحت ع البحر","מבארח רוחת ע אל־בחר","אתמול הלכתי לים"],["شو عملت اليوم؟","שו עמלת אליום?","מה עשית היום?"],["شفت فيلم حلو","שופת פילם חלו","ראיתי סרט טוב"]]},
+{"id":"future","t":"עתיד ושלילה","a":"المستقبل والنفي","pic":"⏩","tip":"״רח״ לפני פועל הופכת אותו לעתיד: ״רח ארוח״ = אני אלך. ״מש״ ו״מא״ הופכות משפט לשלילה.","words":[
+["رح أروح","רח ארוח","אני אלך"],["بكرة رح أشوفك","בוכרה רח אשופכ","מחר אראה אותך"],["مش هلّأ","מש הלא","לא עכשיו"],["ما رحت","מא רוחת","לא הלכתי"],["مش مشكلة","מש משכלה","אין בעיה"],["ولا إشي","ולא אִשי","כלום"],["أبدًا","אבדן","בכלל לא / אף פעם"],["لسّا","לסא","עדיין / עוד לא"],["رح نشوف","רח נשוף","נראה"],["مش رح أنسى","מש רח אנסא","לא אשכח"]]},
+{"id":"connectors","t":"מילות קישור","a":"كلمات ربط","pic":"🔗","tip":"מילות קישור הופכות מילים בודדות לשיחה אמיתית. ״יעני״ עברה גם לעברית.","words":[
+["لأنّه","לאנו","כי"],["بس","בס","אבל / רק"],["كمان","כמאן","גם"],["يعني","יעני","כלומר"],["إذا","אִזא","אם"],["لمّا","למא","כש..."],["عشان","עשאן","בשביל / כדי"],["أو","או","או"],["مع","מע","עם"],["بحبّ القهوة بس مش كتير","בחב אל־קהוה בס מש כתיר","אני אוהב קפה, אבל לא הרבה"],["بقرا لأنّي بحبّ القصص","בקרא לאני בחב אל־קצץ","אני קורא כי אני אוהב סיפורים"],["إذا في وقت، بنروح","אִזא פי וקת, בנרוח","אם יהיה זמן, נלך"]]},
+{"id":"market","t":"בשוק","a":"بالسوق","pic":"🛒","tip":"בשוק נהוג להתמקח. ״ע׳אלי שוי!״ (קצת יקר!) היא דרך מנומסת להתחיל.","words":[
+["بقدّيش هاد؟","בקדיש האד?","כמה זה עולה?"],["غالي","ע׳אלי","יקר"],["رخيص","רח׳יץ","זול"],["مصاري","מצארי","כסף"],["شيكل","שיקל","שקל"],["كيلو","כילו","קילו"],["بندورة","בנדורה","עגבניות"],["خيار","ח׳יאר","מלפפון"],["بدّي كيلو بندورة","בדי כילו בנדורה","אני רוצה קילו עגבניות"],["وين الدكّانة؟","וין א־דכאנה?","איפה המכולת?"],["خلّي الباقي","ח׳לי אל־באקי","תשאיר את העודף"]]},
+{"id":"directions","t":"כיוונים","a":"اتجاهات","pic":"🧭","tip":"״דוע׳רי״ פירושה ישר, ומכאן גם ״דוגרי״ בעברית!","words":[
+["يمين","ימין","ימינה"],["شمال","שמאל","שמאלה"],["دغري","דוע׳רי","ישר"],["قريب","קריב","קרוב"],["بعيد","בעיד","רחוק"],["قدّام","קדאם","מקדימה"],["ورا","ורא","מאחורה"],["جنب","ג׳נב","ליד"],["وين المحطّة؟","וין אל־מחטה?","איפה התחנה?"],["روح دغري وبعدين يمين","רוח דוע׳רי ובעדין ימין","לך ישר ואחר כך ימינה"]]},
+{"id":"health","t":"אצל הרופא","a":"عند الدكتور","pic":"🩺","tip":"לחולה אומרים ״סלאמתכ״ (רפואה שלמה), והוא עונה ״אללה יסלמכ״.","words":[
+["بوجعني راسي","בוג׳עני ראסי","כואב לי הראש"],["بوجعني بطني","בוג׳עני בטני","כואבת לי הבטן"],["عندي حرارة","ענדי חראראה","יש לי חום"],["دكتور","דכתור","רופא"],["صيدلية","צידליה","בית מרקחת"],["دوا","דוא","תרופה"],["سلامتك","סלאמתכ","רפואה שלמה"],["الله يسلّمك","אללה יסלמכ","תודה (תשובה ל״סלאמתכ״)"],["لازم ترتاح","לאזם תרתאח","אתה צריך לנוח"]]}
+],
+"dialog":{"t":"בשוק","lines":[
+["קונה","مرحبا، بقدّيش البندورة؟","מרחבא, בקדיש אל־בנדורה?","שלום, כמה עולות העגבניות?"],["מוכר","الكيلو بخمسة شيكل.","אל־כילו בח׳מסה שיקל.","הקילו בחמישה שקלים."],["קונה","غالي شوي!","ע׳אלי שוי!","קצת יקר!"],["מוכר","ماشي، بعطيك ياه بأربعة.","מאשי, בעטיכ יאה בארבעה.","בסדר, אתן לך בארבעה."],["קונה","تمام، بدّي كيلوين.","תמאם, בדי כילוין.","מצוין, אני רוצה שני קילו."],["מוכר","تفضّل.","תפדל.","בבקשה."],["קונה","شكرًا، الله يعطيك العافية.","שוכרן, אללה יעטיכ אל־עאפיה.","תודה, כל הכבוד על העבודה."],["מוכר","الله يعافيك.","אללה יעאפיכ.","גם לך, תודה."]],
+"qs":[["כמה עלה קילו בהתחלה?","5 שקלים","4 שקלים","2 שקלים","10 שקלים"],["באיזה מחיר נקנו העגבניות בסוף?","4 שקלים לקילו","5 שקלים לקילו","בחינם","3 שקלים לקילו"],["כמה קילו קנה הקונה?","שניים","אחד","שלושה","חמישה"],["מה עונים ל״אללה יעטיכ אל־עאפיה״?","אללה יעאפיכ","מע א־סלאמה","צבאח א־נור","עפוון"]]},
+"listen":[
+{"type":"song","t":"הלכנו לשוק","lines":[["","مبارح رحنا ع السوق","מבארח רוחנא ע א־סוק","אתמול הלכנו לשוק"],["","اشترينا بندورة وخيار","אִשתרינא בנדורה וח׳יאר","קנינו עגבניות ומלפפונים"],["","البيّاع قال «بعشرة»","אל־ביאע קאל «בעשרה»","המוכר אמר ״בעשרה״"],["","قلنا «غالي! خلّيها بستّة»","קולנא «ע׳אלי! ח׳ליהא בסתה»","אמרנו ״יקר! תעשה שישה״"],["","ضحك وقال «ماشي، ع راسي»","דחכ וקאל «מאשי, ע ראסי»","הוא צחק ואמר ״בסדר, בשמחה״"]],"qs":[["מה הם קנו?","עגבניות ומלפפונים","לחם וגבינה","תפוחים ובננות","בגדים"],["מה היה המחיר הראשון?","10","6","5","20"],["בכמה קנו בסוף?","6","10","4","בחינם"]]},
+{"type":"podcast","t":"הלכתי לרופא","lines":[["עומר","مبارح صحيت وكان بوجعني راسي كتير.","מבארח צחית וכאן בוג׳עני ראסי כתיר.","אתמול התעוררתי וכאב לי הראש מאוד."],["עומר","كان عندي حرارة، فرحت ع الدكتور.","כאן ענדי חראראה, פרוחת ע א־דכתור.","היה לי חום, אז הלכתי לרופא."],["עומר","الدكتور قال لازم أرتاح وأشرب ميّ كتير.","א־דכתור קאל לאזם ארתאח ואשרב מיי כתיר.","הרופא אמר שאני צריך לנוח ולשתות הרבה מים."],["עומר","رحت ع الصيدلية واشتريت دوا.","רוחת ע א־צידליה ו־אִשתרית דוא.","הלכתי לבית המרקחת וקניתי תרופה."],["עומר","هلّأ أنا أحسن، الحمد لله.","הלא אנא אחסן, אלחמדללה.","עכשיו אני מרגיש יותר טוב, תודה לאל."]],"qs":[["מה כאב לעומר?","הראש","הבטן","הרגל","השיניים"],["מה אמר הרופא?","לנוח ולשתות הרבה מים","ללכת לבית הספר","לאכול פלאפל","לשחק כדור"],["לאן עומר הלך אחרי הרופא?","לבית המרקחת","לשוק","לים","לסבתא"],["איך עומר מרגיש עכשיו?","יותר טוב","יותר גרוע","עייף","רעב"]]},
+{"type":"comedy","t":"איפה התחנה?","lines":[["עובר אורח","لو سمحت، وين المحطّة؟","לו סמחת, וין אל־מחטה?","סליחה, איפה התחנה?"],["איש","روح دغري، بعدين يمين، بعدين شمال، بعدين يمين...","רוח דוע׳רי, בעדין ימין, בעדין שמאל, בעדין ימין...","לך ישר, אחר כך ימינה, אחר כך שמאלה, אחר כך ימינה..."],["עובר אורח","استنّى استنّى! يمين ولا شمال؟","אִסתנא אִסתנא! ימין ולא שמאל?","רגע רגע! ימינה או שמאלה?"],["איש","بصراحة؟ أنا كمان مش عارف، أنا مش من هون!","בצראחה? אנא כמאן מש עארף, אנא מש מן הון!","בכנות? גם אני לא יודע, אני לא מפה!"]],"qs":[["מה עובר האורח מחפש?","את התחנה","את השוק","את בית הספר","את הרופא"],["האם האיש יודע את הדרך?","לא, הוא לא מפה","כן, הוא גר שם","כן, הוא נהג","הוא לא שמע"],["מה פירוש ״מש מן הון״?","לא מכאן","לא עכשיו","לא יודע","לא רוצה"]]}
+],
+"riddles":[
+{"ar":"شو الإشي اللي كل ما زاد نقص؟","tr":"שו אל־אִשי אִלי כל מא זאד נקץ?","he":"מה הדבר שככל שהוא גדל, הוא מתמעט?","opts":[["العمر","אל־עומר","הגיל (השנים שנשארו)"],["المصاري","אל־מצארי","הכסף"],["الشجرة","א־שג׳רה","העץ"],["البيت","אל־בית","הבית"]]},
+{"ar":"بيت بلا شبابيك ولا أبواب، شو هو؟","tr":"בית בלא שבאביכ ולא אבואב, שו הו?","he":"בית בלי חלונות ובלי דלתות. מה זה?","opts":[["البيضة","אל־ביד׳ה","הביצה"],["الخيمة","אל־ח׳ימה","האוהל"],["الصندوق","א־צנדוק","הקופסה"],["الكرسي","אל־כורסי","הכיסא"]]},
+{"ar":"بيكتب وما بيقرا، شو هو؟","tr":"ביכתב ומא ביקרא, שו הו?","he":"כותב ולא קורא. מה זה?","opts":[["القلم","אל־קלם","העט"],["المعلّمة","אל־מעלמה","המורה"],["الدفتر","א־דפתר","המחברת"],["الطالب","א־טאלב","התלמיד"]]},
+{"ar":"صاحبك قلّك «بوجعني راسي». شو بتحكيله؟","tr":"צאחבכ קלכ «בוג׳עני ראסי». שו בתחכילו?","he":"חבר אמר לך ״כואב לי הראש״. מה תגיד לו?","opts":[["سلامتك","סלאמתכ","רפואה שלמה"],["مبروك","מברוכ","מזל טוב"],["صحّتين","צחתין","בתיאבון"],["تشرّفنا","תשרפנא","נעים מאוד"]]}
+]},
+{"n":5,"t":"שוטפים","a":"بطلاقة","hue":"sun","desc":"ביטויים, סלנג, הבעת דעה ופתגמים. ככה מדברים באמת, ברחוב ובבית.",
+"units":[
+{"id":"expressions","t":"ביטויים חשובים","a":"تعابير","pic":"🌟","tip":"הביטויים האלה הם הלב של השיחה בערבית. מי שמשתמש בהם נשמע כמו דובר אמיתי.","words":[
+["إن شاء الله","אנשאללה","אם ירצה השם"],["ما شاء الله","משאללה","וואו, כל הכבוד (התפעלות)"],["الله يعطيك العافية","אללה יעטיכ אל־עאפיה","כל הכבוד על העבודה (מילולית: שאלוהים ייתן לך בריאות)"],["الله يعافيك","אללה יעאפיכ","תשובה ל״יעטיכ אל־עאפיה״"],["صحّتين","צחתין","בתיאבון / לבריאות"],["على قلبك","עלא קלבכ","תשובה ל״צחתין״"],["تفضّل","תפדל","בבקשה (כשמגישים או מזמינים)"],["تكرم عينك","תוכרם עינכ","בשמחה / בכיף"],["ولا يهمّك","ולא יהמכ","אל תדאג"],["يا حرام","יא חראם","מסכן / חבל"],["يا ريت","יא רית","הלוואי"],["مبروك","מברוכ","מזל טוב"],["الله يبارك فيك","אללה יבארכ פיכ","תשובה ל״מברוכ״"],["كل سنة وإنتَ سالم","כל סנה ו־אִנתֶ סאלם","ברכה לחג או ליום הולדת"]]},
+{"id":"slang","t":"סלנג ושפת רחוב","a":"لغة الشارع","pic":"😎","tip":"סלנג מתאים לחברים, לא לשיחה רשמית. ״ע ראסי״ היא דרך חמה מאוד להגיד ״בשמחה״.","words":[
+["ولك","וַלַכּ","הֵי! (פנייה לחבר)"],["يا زلمة","יא זלמה","אחי / בנאדם"],["صاحبي","צאחבי","החבר שלי"],["زاكي","זאכי","טעים"],["كتير","כתיר","מאוד / הרבה"],["شوي","שוי","קצת"],["ع راسي","ע ראסי","בשמחה (מילולית: על הראש שלי)"],["بطّل","בטל","תפסיק"],["مش ع بالي","מש ע באלי","לא בא לי"],["بجنّن","בג׳נן","מדהים"],["خربان","ח׳רבאן","מקולקל"],["عادي","עאדי","רגיל / לא נורא"]]},
+{"id":"opinions","t":"להביע דעה","a":"رأيي","pic":"🗣️","tip":"להביע דעה זה סימן לשטף. נסו לענות בקול: ״שו ראיכ באל־ערבי?״ (מה דעתך על ערבית?)","words":[
+["بفكّر إنّه","בפכר אִנו","אני חושב ש..."],["برأيي","בראיי","לדעתי"],["أنا موافق","אנא מואפק","אני מסכים"],["مش موافق","מש מואפק","אני לא מסכים"],["بصراحة","בצראחה","בכנות"],["على فكرة","עלא פכרה","דרך אגב"],["المهمّ","אל־מוהם","העיקר"],["من زمان","מן זמאן","מזמן"],["شو رأيك؟","שו ראיכ?","מה דעתך?"],["برأيي العربي مش صعب","בראיי אל־ערבי מש צעב","לדעתי ערבית לא קשה"]]},
+{"id":"proverbs","t":"פתגמים","a":"أمثال","pic":"📜","tip":"פתגמים (אמת׳אל) נשמעים כל הזמן בשיחה. הם מראים שאתם מבינים לא רק מילים, אלא גם תרבות.","words":[
+["الجار قبل الدار","א־ג׳אר קבל א־דאר","השכן לפני הבית (שכן טוב חשוב מבית יפה)"],["إيد وحدة ما بتصفّق","איד וחדה מא בתצקף","יד אחת לא מוחאת כפיים (ביחד חזקים)"],["كل تأخيرة فيها خيرة","כל תאח׳ירה פיהא ח׳ירה","כל עיכוב לטובה"],["الصبر مفتاح الفرج","א־צבר מפתאח אל־פרג׳","הסבלנות היא המפתח לישועה"],["اللي فات مات","אִלי פאת מאת","מה שהיה, היה"],["عصفور بالإيد ولا عشرة ع الشجرة","עצפור באל־איד ולא עשרה ע א־שג׳רה","ציפור אחת ביד עדיפה על עשר על העץ"],["القرد بعين إمّه غزال","אל־קרד בעין אִמו ע׳זאל","הקוף בעיני אמו הוא צבי"],["اللي ما بيعرف الصقر بيشويه","אִלי מא ביערף א־צקר בישויה","מי שלא מכיר את הבז, צולה אותו (לא מעריכים את מה שלא מכירים)"]]}
+],
+"dialog":{"t":"איפה היית?","lines":[
+["נור","وين كنت مبارح؟","וין כונת מבארח?","איפה היית אתמול?"],["דניאל","رحت ع البحر مع صحابي.","רוחת ע אל־בחר מע צחאבי.","הלכתי לים עם החברים שלי."],["נור","يا ريت كنت معكم! كيف كان؟","יא רית כונת מעכום! כיף כאן?","הלוואי שהייתי איתכם! איך היה?"],["דניאל","كان بجنّن، بس الدنيا كانت شوب كتير.","כאן בג׳נן, בס א־דוניא כאנת שוב כתיר.","היה מדהים, אבל היה חם מאוד."],["נור","المرّة الجاي رح أجي معكم إن شاء الله.","אל־מרה אל־ג׳אי רח אג׳י מעכום אנשאללה.","בפעם הבאה אבוא איתכם, אם ירצה השם."],["דניאל","أكيد، تكرم عينك!","אכיד, תוכרם עינכ!","בטח, בשמחה!"]],
+"qs":[["לאן הלך דניאל?","לים","לשוק","לבית הספר","לרופא"],["עם מי הוא הלך?","עם החברים שלו","עם אמא","לבד","עם סבא"],["איך היה מזג האוויר?","חם מאוד","גשום","קר","ירד שלג"],["מה פירוש ״יא רית״?","הלוואי","באמת?","מסכן","בטח"]]},
+"listen":[
+{"type":"song","t":"יא רית","lines":[["","يا ريت الدنيا كلّها صيف","יא רית א־דוניא כולהא ציף","הלוואי שכל השנה תהיה קיץ"],["","والبحر قريب من بيتي","ו־אל־בחר קריב מן ביתי","והים יהיה קרוב לבית שלי"],["","يا ريت صحابي دايمًا معي","יא רית צחאבי דאימן מעי","הלוואי שהחברים שלי תמיד יהיו איתי"],["","نضحك ونحكي للصبح","נדחכ ונחכי ל־א־צובח","נצחק ונדבר עד הבוקר"],["","إن شاء الله، إن شاء الله","אנשאללה, אנשאללה","אם ירצה השם, אם ירצה השם"]],"qs":[["מה הזמר מאחל לגבי מזג האוויר?","שתמיד יהיה קיץ","שירד שלג","שיהיה גשם","שיהיה סתיו"],["מה הוא רוצה שיהיה קרוב לבית?","הים","בית הספר","השוק","סבתא"],["עד מתי הם ידברו?","עד הבוקר","עד הצהריים","עד מחר","עד הערב"]]},
+{"type":"podcast","t":"האוכל של סבתא","lines":[["מגיש","أهلا فيكم بالحلقة الجديدة!","אהלן פיכום באל־חלקה אל־ג׳דידה!","ברוכים הבאים לפרק החדש!"],["מגיש","اليوم بدّنا نحكي عن الأكل.","אליום בדנא נחכי ען אל־אכל.","היום נדבר על אוכל."],["מגיש","برأيي المقلوبة أزكى أكلة بالدنيا.","בראיי אל־מקלובה אזכא אכלה באל־דוניא.","לדעתי מקלובה היא המאכל הכי טעים בעולם."],["מגיש","ستّي بتطبخها كل جمعة، والعيلة كلّها بتيجي.","סתי בתטבח׳הא כל ג׳ומעה, ו־אל־עילה כולהא בתיג׳י.","סבתא שלי מבשלת אותה כל יום שישי, וכל המשפחה באה."],["מגיש","على فكرة، المهمّ مش بس الأكل، المهمّ اللمّة.","עלא פכרה, אל־מוהם מש בס אל־אכל, אל־מוהם אל־למה.","דרך אגב, העיקר זה לא רק האוכל, העיקר זה המפגש המשפחתי."],["מגיש","وإنتو؟ شو أزكى أكلة عندكم؟","ו־אִנתו? שו אזכא אכלה ענדכום?","ואתם? מה המאכל הכי טעים אצלכם?"]],"qs":[["מה המאכל הכי טעים לדעת המגיש?","מקלובה","פלאפל","חומוס","פיצה"],["מתי סבתא מבשלת?","כל יום שישי","כל בוקר","רק בחגים","כל שבת"],["מה ״העיקר״ לפי המגיש?","המפגש המשפחתי","המחיר","הטעם בלבד","המתכון"],["מה פירוש ״חלקה״?","פרק","ארוחה","משפחה","שיר"]]},
+{"type":"comedy","t":"אנשאללה","lines":[["בן","بابا، بتشتريلي بسكليت؟","באבא, בתשתרילי בסכלית?","אבא, תקנה לי אופניים?"],["אבא","إن شاء الله.","אנשאללה.","אם ירצה השם."],["בן","ماما، بابا قال «إن شاء الله»...","מאמא, באבא קאל «אנשאללה»...","אמא, אבא אמר ״אנשאללה״..."],["אמא","يعني «لأ» يا حبيبي.","יעני «לא» יא חביבי.","זאת אומרת ״לא״, מתוק."],["בן","طيّب بابا: «آه» ولا «إن شاء الله»؟","טיב באבא: «אה» ולא «אנשאללה»?","טוב אבא: ״כן״ או ״אנשאללה״?"],["אבא","إن شاء الله آه!","אנשאללה אה!","אנשאללה כן!"]],"qs":[["מה הבן רוצה?","אופניים","כדור","טלפון","כלב"],["מה ״אנשאללה״ אומר כאן, לפי אמא?","לא","כן","אולי מחר","בטח"],["מה אבא עונה בסוף?","אנשאללה כן","לא","מברוכ","יאללה"]]}
+],
+"riddles":[
+{"ar":"كمّل المثل: إيد وحدة ما ...","tr":"כמל אל־מתל: איד וחדה מא ...","he":"השלימו את הפתגם: יד אחת לא ...","opts":[["بتصفّق","בתצקף","מוחאת כפיים"],["بتكتب","בתכתב","כותבת"],["بتاكل","בתאכל","אוכלת"],["بتنام","בתנאם","ישנה"]]},
+{"ar":"كمّل المثل: الجار قبل ...","tr":"כמל אל־מתל: א־ג׳אר קבל ...","he":"השלימו את הפתגם: השכן לפני ...","opts":[["الدار","א־דאר","הבית"],["البحر","אל־בחר","הים"],["الشغل","א־שוע׳ל","העבודה"],["الأكل","אל־אכל","האוכל"]]},
+{"ar":"كمّل المثل: كل تأخيرة فيها ...","tr":"כמל אל־מתל: כל תאח׳ירה פיהא ...","he":"השלימו את הפתגם: בכל עיכוב יש ...","opts":[["خيرة","ח׳ירה","טובה"],["مشكلة","משכלה","בעיה"],["مصاري","מצארי","כסף"],["دوا","דוא","תרופה"]]},
+{"ar":"صاحبك قلّك «مبروك». شو بتردّ عليه؟","tr":"צאחבכ קלכ «מברוכ». שו בתרד עליה?","he":"חבר אמר לך ״מברוכ״. מה תענו?","opts":[["الله يبارك فيك","אללה יבארכ פיכ","זו התשובה ל״מברוכ״"],["على قلبك","עלא קלבכ","זו התשובה ל״צחתין״"],["الله يعافيك","אללה יעאפיכ","זו התשובה ל״יעטיכ אל־עאפיה״"],["يا حرام","יא חראם","מסכן"]]}
+]}
+]
+}
+</script>
+
+<script>
+/* ---------- data prep ---------- */
+const DATA = JSON.parse(document.getElementById('data').textContent);
+const HUE = {coral:'var(--red)',sky:'var(--indigo)',plum:'var(--plum)',olive:'var(--olive)',sun:'var(--saffron)',teal:'var(--accent)'};
+/* tatreez star (cross-stitch on a 9x9 grid) */
+const STAR = ["....X....","...XXX...","..XX.XX..",".XX.X.XX.","XX.XXX.XX",".XX.X.XX.","..XX.XX..","...XXX...","....X...."];
+function stitch(grid){
+  const c = 10; let d = '';
+  grid.forEach((row,y)=>[...row].forEach((ch,x)=>{ if(ch==='X'){ const a = x*c+2, b = y*c+2, e = c-4; d += `M${a} ${b}l${e} ${e}M${a+e} ${b}l-${e} ${e}`; } }));
+  return `<svg viewBox="0 0 ${grid[0].length*c} ${grid.length*c}" aria-hidden="true" focusable="false"><path d="${d}" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round"/></svg>`;
+}
+const BAND = '<span class="band" aria-hidden="true"></span>';
+document.getElementById('logo').innerHTML = stitch(STAR);
+
+const LEVELS = DATA.levels;
+LEVELS.forEach(L=>{
+  L.hueVar = HUE[L.hue];
+  L.units.forEach(u=>{
+    u.level = L;
+    u.words = u.words.map(a=>({ar:a[0],tr:a[1],he:a[2],pic:a[3]||null,extra:a[4]||null,u}));
+    u.pics = u.words.every(w=>w.pic);
+  });
+  L.allWords = L.units.flatMap(u=>u.words);
+  L.items = [{type:'dialog',t:L.dialog.t,lines:L.dialog.lines,qs:L.dialog.qs}, ...(L.listen||[])];
+  L.lines = L.items.flatMap(it=>it.lines.map(l=>({ar:l[1],tr:l[2],he:l[3],u:{pics:false}})));
+});
+const LETTERS_UNIT = {id:'letters',t:'עולם האותיות',a:'الحروف',pic:'أ',isLetters:true,pics:true,level:LEVELS[0],
+  tip:'בערבית יש 28 אותיות, וכותבים מימין לשמאל, בדיוק כמו בעברית. הנקודות חשובות מאוד: ب ت ث נראות כמעט אותו דבר, וההבדל הוא רק במספר הנקודות ובמקום שלהן.'};
+const LETTERS = DATA.letters.map(a=>({ch:a[0],arName:a[1],name:a[2],sound:a[3],ar:a[4],tr:a[5],he:a[6],pic:a[7],letter:a[0],u:LETTERS_UNIT}));
+LETTERS_UNIT.words = LETTERS;
+const UNITS = [LETTERS_UNIT, ...LEVELS.flatMap(L=>L.units)];
+const unitById = id => UNITS.find(u=>u.id===id);
+const TYPES = {dialog:{icon:'💬',label:'שיחת היכרות',tip:'שיחה קצרה בין שני אנשים. הקשיבו, לחצו על כל שורה כדי לשמוע אותה שוב, ואז ענו על השאלון.'},
+  song:{icon:'🎵',label:'שיר',tip:'שיר מקורי שנכתב ללומדה. הקשיבו שורה אחרי שורה, קראו ושירו יחד!'},
+  podcast:{icon:'🎙️',label:'פודקאסט',tip:'פרק קצר שבו מישהו מספר על עצמו. נסו להבין בלי להסתכל בתרגום.'},
+  comedy:{icon:'😂',label:'מערכון',tip:'מערכון קצר עם בדיחה בסוף. הבנתם למה זה מצחיק?'}};
+
+/* which audio bundle holds each text (first seen wins; same order as the bundler) */
+const TB = {};
+const addT = (t,b)=>{ if(!(t in TB)) TB[t] = b; };
+LEVELS.forEach(L=>{ const b = 'l'+L.n;
+  L.units.forEach(u=>u.words.forEach(w=>addT(w.ar,b)));
+  L.dialog.lines.forEach(l=>addT(l[1],b));
+  (L.riddles||[]).forEach(r=>{ addT(r.ar,b); r.opts.forEach(o=>addT(o[0],b)); });
+  (L.listen||[]).forEach(it=>it.lines.forEach(l=>addT(l[1],b)));
+});
+LETTERS.forEach(l=>{ addT(l.arName,'abc'); addT(l.ar,'abc'); });
+
+/* ---------- storage & settings ---------- */
+const KEY = 'yalla-arabic-v2';
+let P = {stars:{},exam2:{},speed:{},riddles:{},dialog:{},build:{},listen:{},typeBest:{},hand:{},daily:{},final:0,hideTr:false,hideHe:false,listenLv:1};
+try{ const s = JSON.parse(localStorage.getItem(KEY)||'null'); if(s) P = Object.assign(P,s); }catch(e){}
+['exam2','listen','typeBest','hand','daily','speed','riddles','build'].forEach(k=>{ if(!P[k] || typeof P[k]!=='object') P[k] = {}; });
+Object.keys(P.dialog||{}).forEach(n=>{ if(P.listen[n+'-dialog']==null) P.listen[n+'-dialog'] = P.dialog[n]; });
+function save(){ try{ localStorage.setItem(KEY,JSON.stringify(P)); }catch(e){} updateChips(); }
+function updateChips(){
+  document.getElementById('starCount').textContent = Object.values(P.stars).reduce((a,b)=>a+b,0) + ' / ' + UNITS.length*3;
+  document.getElementById('cupCount').textContent = LEVELS.filter(L=>(P.exam2[L.n]||0)>=12).length;
+}
+const root = document.getElementById('root');
+function applySettings(){
+  root.classList.toggle('hide-tr', !!P.hideTr); root.classList.toggle('hide-he', !!P.hideHe);
+  document.getElementById('tglTr').setAttribute('aria-pressed', !P.hideTr);
+  document.getElementById('tglHe').setAttribute('aria-pressed', !P.hideHe);
+}
+document.getElementById('tglTr').onclick = ()=>{ P.hideTr = !P.hideTr; applySettings(); save(); };
+document.getElementById('tglHe').onclick = ()=>{ P.hideHe = !P.hideHe; applySettings(); save(); };
+
+/* ---------- audio ---------- */
+const BUNDLES = {}, LOADING = {};
+function loadBundle(b){
+  if(BUNDLES[b]) return Promise.resolve(BUNDLES[b]);
+  if(!LOADING[b]) LOADING[b] = fetch('audio/'+b+'.json').then(r=>{ if(!r.ok) throw new Error('bad'); return r.json(); })
+    .then(j=>(BUNDLES[b]=j)).catch(()=>(BUNDLES[b]={}));
+  return LOADING[b];
+}
+let arVoice = null, voicesLoaded = false, noticeShown = false;
+const hasTTS = 'speechSynthesis' in window;
+function pickVoice(){ const vs = speechSynthesis.getVoices(); if(vs.length) voicesLoaded = true; arVoice = vs.find(v=>/^ar/i.test(v.lang)) || null; }
+if(hasTTS){ pickVoice(); speechSynthesis.onvoiceschanged = pickVoice; }
+function showNotice(){ if(noticeShown) return; noticeShown = true; document.getElementById('notice').hidden = false; }
+document.getElementById('noticeX').onclick = ()=>{ document.getElementById('notice').hidden = true; };
+let curAudio = null, speakTok = 0;
+function stopSpeech(){
+  speakTok++;
+  if(curAudio){ curAudio.onended = null; curAudio.onerror = null; try{ curAudio.pause(); }catch(e){} curAudio = null; }
+  if(hasTTS){ try{ speechSynthesis.cancel(); }catch(e){} }
+}
+function speak(text, onend){
+  stopSpeech(); const my = speakTok;
+  const b = TB[text];
+  const go = bund=>{ if(my!==speakTok) return; const d = bund && bund[text]; if(d) playData(d,text,onend); else ttsSpeak(text,onend); };
+  if(!b) return ttsSpeak(text,onend);
+  if(BUNDLES[b]) go(BUNDLES[b]); else loadBundle(b).then(go);
+}
+function playData(d,text,onend){
+  const human = d.charAt(0)==='~';   /* "~" marks a real speaker's WAV recording */
+  const a = new Audio(human ? 'data:audio/wav;base64,'+d.slice(1) : 'data:audio/mpeg;base64,'+d); curAudio = a;
+  const fallback = ()=>{ if(curAudio!==a) return; curAudio = null; ttsSpeak(text,onend); };
+  a.onended = ()=>{ if(curAudio===a) curAudio = null; onend && onend(); };
+  a.onerror = fallback;
+  if(!human){ try{ a.playbackRate = 0.9; }catch(e){} }
+  const p = a.play(); if(p && p.catch) p.catch(fallback);
+}
+function ttsSpeak(text, onend){
+  if(!hasTTS || (voicesLoaded && !arVoice)){ showNotice(); onend && setTimeout(onend,700); return; }
+  try{
+    speechSynthesis.cancel();
+    const u = new SpeechSynthesisUtterance(text);
+    u.lang = 'ar-SA'; if(arVoice) u.voice = arVoice; u.rate = 0.8;
+    if(onend){ u.onend = onend; u.onerror = onend; }
+    speechSynthesis.speak(u);
+  }catch(e){ showNotice(); onend && setTimeout(onend,700); }
+}
+let actx = null;
+function tone(freqs, dur=0.12){
+  try{
+    actx = actx || new (window.AudioContext||window.webkitAudioContext)();
+    freqs.forEach((f,i)=>{
+      const o = actx.createOscillator(), g = actx.createGain();
+      o.type = 'triangle'; o.frequency.value = f;
+      const t = actx.currentTime + i*dur;
+      g.gain.setValueAtTime(0.0001,t); g.gain.exponentialRampToValueAtTime(0.16,t+0.02); g.gain.exponentialRampToValueAtTime(0.0001,t+dur);
+      o.connect(g).connect(actx.destination); o.start(t); o.stop(t+dur+0.02);
+    });
+  }catch(e){}
+}
+const yay = ()=>tone([660,880,1100]);
+const oops = ()=>tone([300,220],0.16);
+
+/* ---------- helpers ---------- */
+const $app = document.getElementById('app');
+const shuffle = a => { a = a.slice(); for(let i=a.length-1;i>0;i--){ const j = Math.floor(Math.random()*(i+1)); [a[i],a[j]]=[a[j],a[i]]; } return a; };
+function seedRand(str){ let h = 1779033703 ^ str.length; for(let i=0;i<str.length;i++){ h = Math.imul(h ^ str.charCodeAt(i), 3432918353); h = h<<13 | h>>>19; }
+  return ()=>{ h = Math.imul(h ^ (h>>>16), 2246822507); h = Math.imul(h ^ (h>>>13), 3266489909); h ^= h>>>16; return (h>>>0)/4294967296; }; }
+const shuffleR = (a,r) => { a = a.slice(); for(let i=a.length-1;i>0;i--){ const j = Math.floor(r()*(i+1)); [a[i],a[j]]=[a[j],a[i]]; } return a; };
+const pad2 = n => String(n).padStart(2,'0');
+const dayKey = d => `${d.getFullYear()}-${pad2(d.getMonth()+1)}-${pad2(d.getDate())}`;
+const todayKey = () => dayKey(new Date());
+const yesterdayKey = () => { const d = new Date(); d.setDate(d.getDate()-1); return dayKey(d); };
+const starStr = n => '<span class="st-on">'+'★'.repeat(n)+'</span><span class="st-off">'+'★'.repeat(3-n)+'</span>';
+const isLong = s => s.length > 14;
+const go = h => { location.hash = h; };
+const HARAKAT = /[ً-ْٰـ]/g, PUNCT = /[؟?!.,،«»…:]/g;
+const plainAr = s => s.replace(HARAKAT,'').replace(PUNCT,'').replace(/\s+/g,' ').trim();
+const normAr = s => plainAr(s).replace(/[أإآ]/g,'ا').replace(/ى/g,'ي').replace(/ة/g,'ه');
+const typePool = words => words.filter(w=>{ const n = normAr(w.ar); return n.length>=2 && n.length<=12 && n.split(' ').length<=2; });
+const letterTypeItems = () => LETTERS.map(l=>({ar:l.ch,say:l.arName,he:'האות '+l.name,tr:'',pic:null,u:LETTERS_UNIT}));
+function confetti(){
+  if(matchMedia('(prefers-reduced-motion: reduce)').matches) return;
+  const c = document.getElementById('fx'), x = c.getContext('2d'); c.hidden = false;
+  c.width = innerWidth; c.height = innerHeight;
+  const cs = getComputedStyle(document.documentElement);
+  const cols = ['--red','--indigo','--saffron','--olive','--plum'].map(v=>cs.getPropertyValue(v).trim());
+  const Pt = Array.from({length:140},()=>({x:c.width/2,y:c.height*0.35,vx:(Math.random()-.5)*14,vy:Math.random()*-14-4,r:Math.random()*6+4,c:cols[Math.floor(Math.random()*cols.length)],a:Math.random()*6}));
+  let f = 0;
+  (function step(){
+    x.clearRect(0,0,c.width,c.height);
+    Pt.forEach(p=>{ p.vy += .45; p.x += p.vx; p.y += p.vy; p.a += .2; x.save(); x.translate(p.x,p.y); x.rotate(p.a); x.fillStyle = p.c; x.fillRect(-p.r/2,-p.r/4,p.r,p.r/2); x.restore(); });
+    if(++f < 110) requestAnimationFrame(step); else { x.clearRect(0,0,c.width,c.height); c.hidden = true; }
+  })();
+}
+function pageHead(title, sub, L, pic, hue){
+  return `<button class="back" data-back>→ חזרה</button>
+    <div class="uhead" style="--hue:${L?L.hueVar:(hue||'var(--accent)')}">
+      ${pic?`<span class="pic">${pic}</span>`:''}
+      <div><h2>${title}</h2>${sub?`<div class="a ar">${sub}</div>`:''}</div>
+      ${L?`<span class="lv">רמה ${L.n} · ${L.t}</span>`:''}
+    </div>`;
+}
+function wireBack(to){ const b = $app.querySelector('[data-back]'); if(b) b.onclick = ()=>go(to); }
+function resultBox(starsN, title, detail, buttons){
+  return `<div class="quiz"><div class="result">
+    ${starsN===null?'':`<div class="big" aria-label="${starsN} כוכבים">${starStr(starsN)}</div>`}
+    <h3>${title}</h3><p>${detail}</p>
+    <div class="toolbar" style="justify-content:center;margin-top:8px">${buttons.map((b,i)=>`<button class="btn ${i?'alt':''}" data-rb="${i}">${b[0]}</button>`).join('')}</div>
+  </div></div>`;
+}
+function wireResult(box, buttons){ box.querySelectorAll('[data-rb]').forEach(el=>el.onclick = buttons[+el.dataset.rb][1]); }
+function lvChips(cur, extra){
+  return `<div class="lvchips" role="group" aria-label="בחירת רמה">${(extra||[]).map(e=>`<button class="lvchip" data-lv="${e[0]}" style="--hue:var(--accent)" aria-pressed="${cur===e[0]}">${e[1]}</button>`).join('')}${LEVELS.map(L=>`<button class="lvchip" data-lv="${L.n}" style="--hue:${L.hueVar}" aria-pressed="${String(cur)===String(L.n)}">רמה ${L.n} · ${L.t}</button>`).join('')}</div>`;
+}
+function highestLevel(){
+  let m = 1;
+  LEVELS.forEach(L=>{ if(L.units.some(u=>P.stars[u.id]) || P.exam2[L.n]) m = Math.max(m,L.n); if((P.exam2[L.n]||0)>=12) m = Math.max(m,L.n+1); });
+  return Math.min(LEVELS.length,m);
+}
+
+/* ---------- question engine ---------- */
+const ASK = {word2pic:'איזו תמונה מתאימה?',pic2word:'איך אומרים את זה בערבית?',listen:'הקשיבו ובחרו את התמונה',first:'באיזו אות מתחילה המילה?',
+  ar2he:'מה הפירוש?',he2ar:'איך אומרים בערבית?',listen2he:'הקשיבו: מה שמעתם?'};
+function kindsFor(w){ return w.u.isLetters ? ['first','word2pic','first','pic2word'] : w.u.pics ? ['word2pic','pic2word','listen'] : ['ar2he','he2ar','listen2he']; }
+function pickOpts(w,pool){
+  const seenHe = new Set([w.he]), seenAr = new Set([w.ar]), out = [];
+  for(const x of shuffle(pool)){ if(out.length>=3) break; if(seenHe.has(x.he)||seenAr.has(x.ar)) continue; seenHe.add(x.he); seenAr.add(x.ar); out.push(x); }
+  return shuffle([w,...out]);
+}
+function makeQ(w,kind,pool){
+  if(kind==='type') return {w,kind};
+  if(kind==='first'){
+    const others = shuffle(LETTERS.filter(l=>l.ch!==w.letter)).slice(0,3).map(l=>({letter:l.ch}));
+    return {w,kind,opts:shuffle([{letter:w.letter,ok:true},...others])};
+  }
+  const p = (['word2pic','pic2word','listen'].includes(kind)) ? w.u.words : (pool||w.u.words);
+  return {w,kind,opts:pickOpts(w,p).map(o=>o===w?Object.assign({},o,{ok:true}):o)};
+}
+function qtopHTML({i,n,score,timerHTML}){
+  return `<div class="qtop">${timerHTML || `<span>שאלה ${i+1} מתוך ${n}</span><span class="bar"><i style="width:${i/n*100}%"></i></span>`}<span>⭐ ${score}</span></div>`;
+}
+function renderQ(box,q,meta,onAnswer){
+  if(q.kind==='type') return renderType(box,q,meta,onAnswer);
+  const w = q.w, k = q.kind;
+  let prompt = '';
+  if(k==='word2pic'||k==='ar2he') prompt = `<span class="w ar ${isLong(w.ar)?'long':''}">${w.ar}</span><span class="tr">${w.tr}</span><button class="btn alt" data-rep>🔊 שמעו</button>`;
+  if(k==='pic2word') prompt = `<span class="pic">${w.pic}</span>`;
+  if(k==='listen'||k==='listen2he') prompt = `<button class="bigspk" data-rep aria-label="השמעה">🔊</button><span class="hint">אפשר ללחוץ שוב כדי לשמוע</span>`;
+  if(k==='first') prompt = `<span class="pic">${w.pic}</span><span class="w ar">${w.ar}</span><span class="tr">${w.tr} · ${w.he}</span>`;
+  if(k==='he2ar') prompt = `<span class="heq">${w.he}</span>`;
+  const optHTML = o => k==='first' ? `<span class="letter ar">${o.letter}</span>`
+    : (k==='pic2word'||k==='he2ar') ? `<span class="w ar">${o.ar}</span><span class="tr">${o.tr}</span>`
+    : (k==='ar2he'||k==='listen2he') ? `<span class="heopt">${o.he}</span>`
+    : `<span class="pic">${o.pic}</span>`;
+  box.innerHTML = `<div class="quiz">${qtopHTML(meta)}
+    <div class="qask">${ASK[k]}</div>
+    <div class="qprompt">${prompt}</div>
+    <div class="opts">${q.opts.map((o,j)=>`<button class="opt" data-j="${j}">${optHTML(o)}</button>`).join('')}</div>
+  </div>`;
+  const rep = box.querySelector('[data-rep]'); if(rep) rep.onclick = ()=>speak(w.ar);
+  if(['word2pic','listen','ar2he','listen2he'].includes(k)) setTimeout(()=>{ if(box.contains(rep)) speak(w.ar); },200);
+  const btns = [...box.querySelectorAll('.opt')];
+  btns.forEach(b=>b.onclick=()=>{
+    const o = q.opts[+b.dataset.j];
+    btns.forEach(x=>x.disabled = true);
+    btns[q.opts.findIndex(x=>x.ok)].classList.add('right');
+    if(o.ok) yay(); else { b.classList.add('wrong'); oops(); }
+    if(!meta.fast) setTimeout(()=>speak(w.ar),250);
+    setTimeout(()=>onAnswer(!!o.ok), meta.fast ? (o.ok?350:900) : (o.ok?1300:2100));
+  });
+}
+
+/* typing question with an on-screen Arabic keyboard */
+const KB = ['ض ص ث ق ف غ ع ه خ ح ج د','ش س ي ب ل ا ت ن م ك ط','ذ ئ ء ؤ ر ى ة و ز ظ','أ إ آ'];
+function kbHTML(){
+  return `<div class="kb" dir="rtl">${KB.map((r,i)=>`<div class="kbr">${r.split(' ').map(k=>`<button type="button" class="key ar" data-k="${k}">${k}</button>`).join('')}${i===3?'<button type="button" class="key wide" data-k=" ">רווח</button><button type="button" class="key wide" data-k="BS" aria-label="מחיקה">⌫ מחיקה</button>':''}</div>`).join('')}</div>`;
+}
+function renderType(box,q,meta,onAnswer){
+  const w = q.w, say = w.say||w.ar, target = normAr(w.ar), shown = plainAr(w.ar);
+  let hints = 0, done = false;
+  box.innerHTML = `<div class="quiz">${qtopHTML(meta)}
+    <div class="qask">כתבו בערבית ⌨️</div>
+    <div class="qprompt">${w.pic?`<span class="pic">${w.pic}</span>`:''}<span class="heq">${w.he}</span>${w.tr?`<span class="tr">${w.tr}</span>`:''}
+      <button class="btn alt" data-rep>🔊 שמעו</button>
+      <span class="hint">${target.replace(/ /g,'').length} אותיות${target.includes(' ')?' · שתי מילים':''}</span></div>
+    <input class="tinput ar" id="ti" dir="rtl" lang="ar" autocomplete="off" autocapitalize="off" spellcheck="false" placeholder="הקלידו כאן או במקלדת למטה" aria-label="התשובה בערבית">
+    ${kbHTML()}
+    <div class="toolbar" style="justify-content:center;margin-top:12px"><button class="btn" id="tchk">בדיקה</button><button class="btn alt" id="thint">💡 רמז</button><button class="btn alt" id="tskip">לא יודע</button></div>
+    <div id="tres"></div></div>`;
+  const ti = box.querySelector('#ti');
+  box.querySelector('[data-rep]').onclick = ()=>speak(say);
+  setTimeout(()=>{ if(box.contains(ti)) speak(say); },200);
+  if(matchMedia('(pointer:fine)').matches) ti.focus();
+  box.querySelectorAll('.key').forEach(b=>b.onclick=()=>{ if(done) return; const k = b.dataset.k; ti.value = k==='BS' ? ti.value.slice(0,-1) : ti.value+k; });
+  const finish = (ok, skipped)=>{
+    if(done) return; done = true;
+    ti.disabled = true; box.querySelectorAll('.key, #tchk, #thint, #tskip').forEach(b=>b.disabled = true);
+    ti.classList.add(ok?'ok':'no'); if(ok) yay(); else oops();
+    speak(say);
+    box.querySelector('#tres').innerHTML = `<div class="tfeed ${ok?'ok':'no'}">${ok?(hints?'נכון, בעזרת רמז!':'מצוין! כתבתם נכון 🎉'):(skipped?'זה בסדר, לומדים! ככה כותבים:':'כמעט! ככה כותבים:')} <span class="ar answer">${w.ar}</span></div>`;
+    setTimeout(()=>onAnswer(ok && hints===0), ok?1500:2600);
+  };
+  box.querySelector('#tchk').onclick = ()=>{ if(!ti.value.trim()) { ti.focus(); return; } finish(normAr(ti.value)===target,false); };
+  box.querySelector('#thint').onclick = ()=>{ hints = Math.min(shown.length, hints+1); ti.value = shown.slice(0,hints); if(hints>=shown.length) finish(false,true); };
+  box.querySelector('#tskip').onclick = ()=>finish(false,true);
+  ti.addEventListener('keydown',e=>{ if(e.key==='Enter') box.querySelector('#tchk').click(); });
+}
+function runQuestions(box,qs,onFinish){
+  let i = 0, score = 0;
+  const next = ()=>{ if(i>=qs.length) return onFinish(score);
+    renderQ(box,qs[i],{i,n:qs.length,score},ok=>{ if(ok) score++; i++; next(); }); };
+  next();
+}
+function vocabQs(words,n,poolAll){
+  return shuffle(words).slice(0,n).map((w,i)=>{ const ks = kindsFor(w); return makeQ(w, ks[i%ks.length], w.u.pics?null:poolAll); });
+}
+
+/* ---------- home ---------- */
+function levelStars(L){ return L.units.reduce((a,u)=>a+(P.stars[u.id]||0),0); }
+function dailyInfo(){
+  const t = todayKey(), last = P.daily.last;
+  return {doneToday:last===t, streak:(last===t||last===yesterdayKey()) ? (P.daily.streak||0) : 0, best:P.daily.best||0};
+}
+function wordOfDay(){
+  const r = seedRand('wod'+todayKey());
+  const pool = LEVELS.slice(0,highestLevel()).flatMap(L=>L.allWords);
+  return pool[Math.floor(r()*pool.length)];
+}
+function renderHome(scrollTo){
+  const d = dailyInfo(), wod = wordOfDay();
+  $app.innerHTML = `
+  <section class="welcome">
+    ${BAND}
+    <div class="wl">
+      <div class="mascot-row"><span class="mascot" aria-hidden="true">🐪</span>
+        <div class="speech"><b>מרחבא! אני ג׳מילה.</b> אני אלווה אתכם בדרך לערבית מדוברת. מה נעשה היום?</div></div>
+      <h2>ערבית מדוברת, מהמילה הראשונה ועד שיחה שוטפת</h2>
+      <p>חמש רמות של ערבית פלסטינית מדוברת, כמו שמדברים בישראל. לכל מילה ולכל משפט יש הקלטה, תעתיק בעברית ותרגום. מתאים לילדים מגיל 6, לנוער ולמבוגרים.</p>
+      <div class="cta"><button class="btn" data-h="placement">🎯 מבחן מיקום</button><button class="btn alt" data-h="lvl1">להתחיל מההתחלה</button></div>
+    </div>
+    <div class="daycard">
+      <span class="wod">האתגר היומי · מילת היום</span>
+      <div class="streak"><span class="fire" aria-hidden="true">🔥</span><b>${d.streak}</b><span>${d.streak===1?'יום ברצף':'ימים ברצף'}</span></div>
+      <button class="wodword" data-say="${wod.ar}" aria-label="השמעת מילת היום">
+        ${wod.pic?`<span class="pic">${wod.pic}</span>`:''}<span class="w ar">${wod.ar}</span><span class="tr">${wod.tr}</span><span class="he">${wod.he}</span><span class="hint">🔊 לחצו לשמוע</span></button>
+      <button class="btn" data-h="daily">${d.doneToday?'✔ השלמתם היום! לשחק שוב':'🌞 לאתגר של היום'}</button>
+    </div>
+  </section>
+  <div class="qtiles">
+    ${[['listen'+P.listenLv,'🎧','האזנה והבנה','שיחות, שירים, פודקאסטים ומערכונים','var(--indigo)'],['write','✍️','תרגול כתיבה','בעיפרון ובהקלדה','var(--olive)'],['tests','🏆','מבחנים','מבחן לכל רמה ומבחן מסכם','var(--saffron)'],['letters','أ','האותיות','28 אותיות עם צלילים','var(--red)']]
+      .map(t=>`<button class="qtile" data-h="${t[0]}" style="--hue:${t[4]}"><span class="qi ${t[1]==='أ'?'ar':''}">${t[1]}</span><span class="qt">${t[2]}</span><span class="qs">${t[3]}</span></button>`).join('')}
+  </div>
+  ${LEVELS.map(L=>{
+    const s = levelStars(L), max = L.units.length*3, ex = P.exam2[L.n]||0;
+    const lDone = L.items.filter(it=>P.listen[L.n+'-'+it.type]!=null).length;
+    const acts = [
+      ['listen'+L.n,'🎧 האזנה והבנה', lDone?`${lDone}/${L.items.length}`:''],
+      [`l${L.n}-riddles`,'🧩 חידות', P.riddles[L.n]!=null ? `${P.riddles[L.n]}/${L.riddles.length}` : ''],
+      [`l${L.n}-speed`,'⚡ אתגר מהירות', P.speed[L.n] ? `שיא: ${P.speed[L.n]}` : ''],
+      ...(L.n>=3 ? [[`l${L.n}-build`,'🧱 בונים משפטים', P.build[L.n]!=null ? `${P.build[L.n]}/6` : '']] : []),
+      [`l${L.n}-exam`,'🏆 מבחן סוף רמה', ex ? `${ex}/15${ex>=12?' ✔':''}` : '']
+    ];
+    return `<section class="level" id="lvl${L.n}" style="--hue:${L.hueVar}">
+      ${BAND}
+      <div class="lhead">
+        <div class="lbadge">${stitch(STAR)}<b>${L.n}</b></div>
+        <div><span class="eyebrow">רמה ${L.n}</span><h2>${L.t}<span class="ar">${L.a}</span></h2><p>${L.desc}</p></div>
+        <div class="lprog"><span class="pbar"><i style="width:${s/max*100}%"></i></span><span>${s} / ${max} ★${ex>=12?' · 🏆':''}</span></div>
+      </div>
+      <div class="path">
+        ${L.units.map((u,i)=>`<button class="unit" data-h="${u.id}">
+          <span class="num">${i+1}</span><span class="pic">${u.pic}</span>
+          <span class="t">${u.t}</span><span class="a">${u.a}</span>
+          <span class="stars" aria-label="${P.stars[u.id]||0} כוכבים מתוך 3">${starStr(P.stars[u.id]||0)}</span></button>`).join('')}
+        ${L.n===1?`<button class="unit feature" data-h="letters">
+          <span class="lp" aria-hidden="true">أ ب ت ث</span>
+          <span class="body"><span class="t">עולם האותיות · 28 אותיות</span><span class="a">الحروف العربية</span>
+          <span class="hint">כל אות עם הצליל שלה ומילה עם תמונה שמתחילה בה</span>
+          <span class="stars">${starStr(P.stars.letters||0)}</span></span></button>`:''}
+      </div>
+      <div class="acts">${acts.map(a=>`<button class="act ${a[2]?'done':''}" data-h="${a[0]}">${a[1]}${a[2]?` <span class="badge">${a[2]}</span>`:''}</button>`).join('')}</div>
+    </section>`;}).join('')}`;
+  $app.querySelectorAll('[data-h]').forEach(b=>b.onclick=()=>go(b.dataset.h));
+  $app.querySelectorAll('[data-say]').forEach(b=>b.onclick=()=>speak(b.dataset.say));
+  loadBundle('l1');
+  if(scrollTo){ const el = document.getElementById(scrollTo); if(el) setTimeout(()=>el.scrollIntoView({behavior:'smooth'}),50); return true; }
+  return false;
+}
+
+/* ---------- unit ---------- */
+let current = null, tab = 'learn';
+function renderUnit(u){
+  current = u;
+  const L = u.level;
+  loadBundle(u.isLetters ? 'abc' : 'l'+L.n);
+  $app.innerHTML = `${pageHead(u.t, u.a, L, u.pic)}
+    <p class="tip"><b>הידעתם?</b> ${u.tip}</p>
+    <div class="tabs" role="group" aria-label="שלבים">
+      <button data-tab="learn">📖 לומדים</button><button data-tab="memory">🧠 זיכרון</button><button data-tab="quiz">⭐ חידון</button><button data-tab="type">⌨️ הקלדה</button>
+    </div><div id="panel"></div>`;
+  wireBack('lvl'+L.n);
+  $app.querySelectorAll('[data-tab]').forEach(b=>b.onclick=()=>{ tab = b.dataset.tab; drawTab(); });
+  drawTab();
+}
+function drawTab(){
+  stopSpeech();
+  $app.querySelectorAll('[data-tab]').forEach(b=>b.setAttribute('aria-pressed', b.dataset.tab===tab));
+  const p = document.getElementById('panel');
+  if(tab==='learn') current.isLetters ? learnLetters(p) : learnWords(p,current);
+  else if(tab==='memory') memory(p,current);
+  else if(tab==='type') unitType(p,current);
+  else unitQuiz(p,current);
+}
+function learnWords(p,u){
+  p.innerHTML = `<div class="toolbar">
+      <button class="btn" id="playAll">🔊 שמעו את הכול</button>
+      <span class="hint">לחצו על כרטיס כדי לשמוע, ואמרו בקול. אפשר להסתיר את התעתיק או את התרגום בכפתורים למעלה.</span>
+    </div>
+    <div class="words ${u.pics?'':'text'}">${u.words.map((w,i)=>`
+      <button class="wcard ${isLong(w.ar)?'long':''}" data-i="${i}" aria-label="${w.he}">
+        <span class="spk" aria-hidden="true">🔊</span>
+        ${w.pic?`<span class="pic">${w.pic}</span>`:''}${w.extra?`<span class="digit">${w.extra}</span>`:''}
+        <span class="w ar">${w.ar}</span><span class="tr">${w.tr}</span><span class="he">${w.he}</span>
+      </button>`).join('')}</div>`;
+  const cards = [...p.querySelectorAll('.wcard')];
+  const flash = c=>{ cards.forEach(x=>x.classList.remove('playing')); void c.offsetWidth; c.classList.add('playing'); };
+  cards.forEach(c=>c.onclick=()=>{ flash(c); speak(u.words[+c.dataset.i].ar); });
+  document.getElementById('playAll').onclick = ()=>playSeq(cards, i=>u.words[i].ar, flash);
+}
+function playSeq(els, textAt, flash){
+  let i = 0; stopSpeech(); const tok = speakTok;
+  const next = ()=>{ if(i>=els.length || !document.body.contains(els[0])){ els.forEach(x=>x.classList.remove('playing')); return; }
+    const el = els[i]; flash(el); el.scrollIntoView({block:'nearest',behavior:'smooth'});
+    speak(textAt(i), ()=>{ i++; setTimeout(()=>{ if(speakTok===tok+i) next(); },400); });
+  };
+  next();
+}
+function learnLetters(p){
+  let sel = 0;
+  p.innerHTML = `<div id="ld"></div>
+    <p class="hint" style="margin:0 0 10px">בחרו אות כדי לראות ולשמוע אותה. רוצים לתרגל כתיבה? יש <a href="#write">תרגול כתיבה ביד</a>.</p>
+    <div class="lgrid">${LETTERS.map((l,i)=>`<button class="ltile ar" data-i="${i}" aria-label="האות ${l.name}">${l.ch}</button>`).join('')}</div>`;
+  const tiles = [...p.querySelectorAll('.ltile')];
+  const draw = ()=>{
+    const l = LETTERS[sel];
+    document.getElementById('ld').innerHTML = `<div class="ldetail">
+        <div class="bigl ar">${l.ch}</div>
+        <div class="info">
+          <div class="name">האות ${l.name} <span class="ar" style="color:var(--muted);font-size:22px">${l.arName}</span></div>
+          <div class="snd">נשמעת כמו: <b>${l.sound}</b></div>
+          ${formsHTML(l.ch)}
+          <div class="ex"><span class="pic">${l.pic}</span><span class="w ar"><b>${l.ar.slice(0,1)}</b>${l.ar.slice(1)}</span><span><b class="tr">${l.tr}</b> <span class="he">· ${l.he}</span></span></div>
+          <div class="row"><button class="btn" id="sayL">🔊 שם האות</button><button class="btn alt" id="sayW">🔊 המילה</button><button class="btn alt" id="nextL">האות הבאה ←</button></div>
+        </div></div>`;
+    tiles.forEach((t,i)=>t.setAttribute('aria-pressed', i===sel));
+    document.getElementById('sayL').onclick = ()=>speak(l.arName);
+    document.getElementById('sayW').onclick = ()=>speak(l.ar);
+    document.getElementById('nextL').onclick = ()=>{ sel = (sel+1)%LETTERS.length; draw(); speak(LETTERS[sel].arName); };
+  };
+  tiles.forEach(t=>t.onclick=()=>{ sel = +t.dataset.i; draw(); speak(LETTERS[sel].arName); });
+  draw();
+}
+const NONJOIN = 'اأإآدذرزو';
+function formsHTML(ch){
+  const zwj = '‍', nj = NONJOIN.includes(ch);
+  const f = [['לבד',ch],['בסוף',zwj+ch],['באמצע',nj?zwj+ch:zwj+ch+zwj],['בהתחלה',nj?ch:ch+zwj]];
+  return `<div class="forms" aria-label="צורות האות">${f.map(x=>`<span class="form"><span class="ar">${x[1]}</span><small>${x[0]}</small></span>`).join('')}</div>${nj?'<span class="hint">האות הזאת לא מתחברת לאות שאחריה.</span>':''}`;
+}
+function memory(p,u){
+  const picks = shuffle(u.words).slice(0,6);
+  const deck = shuffle(picks.flatMap((w,i)=>[{k:i,type:'a',w},{k:i,type:'b',w}]));
+  const faceA = w => u.isLetters ? `<span class="letter ar">${w.letter}</span>` : `<span class="w ar">${w.ar}</span><span class="tr">${w.tr}</span>`;
+  const faceB = w => w.pic && u.pics ? `<span class="pic">${w.pic}</span>` : `<span class="heopt">${w.he}</span>`;
+  let open = [], done = 0, moves = 0, lock = false;
+  p.innerHTML = `<div class="toolbar">
+      <span class="hint">${u.isLetters?'מצאו זוגות: אות + תמונה שמתחילה בה.':u.pics?'מצאו זוגות: תמונה + המילה בערבית.':'מצאו זוגות: ערבית + הפירוש בעברית.'} מהלכים: <b id="mv">0</b></span>
+      <button class="btn alt" id="again">🔄 משחק חדש</button></div>
+    <div class="mgrid">${deck.map((c,i)=>`<button class="mcard" data-i="${i}" aria-label="קלף ${i+1}"><span class="in"><span class="face back-f">؟</span><span class="face front">${c.type==='a'?faceA(c.w):faceB(c.w)}</span></span></button>`).join('')}</div>
+    <div id="memDone"></div>`;
+  document.getElementById('again').onclick = ()=>memory(p,u);
+  const els = [...p.querySelectorAll('.mcard')];
+  els.forEach(el=>el.onclick=()=>{
+    const i = +el.dataset.i, c = deck[i];
+    if(lock || el.classList.contains('open') || el.classList.contains('done')) return;
+    el.classList.add('open'); open.push(i);
+    if(c.type==='a') speak(u.isLetters ? LETTERS.find(l=>l.ch===c.w.letter).arName : c.w.ar);
+    if(open.length===2){
+      moves++; document.getElementById('mv').textContent = moves;
+      const [a,b] = open; open = [];
+      if(deck[a].k===deck[b].k){
+        setTimeout(()=>{ els[a].classList.add('done'); els[b].classList.add('done'); yay(); speak(deck[a].w.ar); done++;
+          if(done===6){ confetti(); const box = document.getElementById('memDone');
+            const btns = [['⭐ לחידון',()=>{tab='quiz';drawTab();}],['🔄 שוב',()=>memory(p,u)]];
+            box.innerHTML = resultBox(null,'כל הכבוד! מצאתם את כל הזוגות',`ב־${moves} מהלכים. עכשיו נסו את החידון ותרוויחו כוכבים.`,btns);
+            wireResult(box,btns); }
+        },350);
+      } else { lock = true; setTimeout(()=>{ els[a].classList.remove('open'); els[b].classList.remove('open'); lock = false; },1000); }
+    }
+  });
+}
+function unitQuiz(p,u){
+  const N = Math.min(8,u.words.length);
+  const qs = shuffle(u.words).slice(0,N).map((w,i)=>{ const ks = kindsFor(w); return makeQ(w, ks[i%ks.length]); });
+  runQuestions(p,qs,score=>{
+    const s = score>=Math.ceil(N*0.85) ? 3 : score>=Math.ceil(N*0.6) ? 2 : score>=Math.ceil(N*0.35) ? 1 : 0;
+    const isNew = s > (P.stars[u.id]||0);
+    P.stars[u.id] = Math.max(P.stars[u.id]||0, s); save();
+    if(s>=2) confetti();
+    const msg = s===3 ? 'מדהים! <span class="ar">ممتاز!</span>' : s===2 ? 'יופי! עוד קצת תרגול ותגיעו ל־3 כוכבים' : s===1 ? 'התחלה טובה! חזרו ללמוד ונסו שוב' : 'לא נורא, לומדים מטעויות. נסו שוב';
+    const btns = [['🔄 עוד פעם',()=>unitQuiz(p,u)],['📖 חזרה ללמידה',()=>{tab='learn';drawTab();}],['🗺️ לרמה',()=>go('lvl'+u.level.n)]];
+    p.innerHTML = resultBox(s,msg,`ענית נכון על ${score} מתוך ${N}${isNew?' · שיא חדש!':''}`,btns); wireResult(p,btns);
+  });
+}
+function unitType(p,u){
+  const pool = u.isLetters ? letterTypeItems() : typePool(u.words);
+  if(pool.length<3){ p.innerHTML = `<p class="tip">בנושא הזה המשפטים ארוכים מדי להקלדה. נסו את ״בונים משפטים״ בדף הרמה, או את תרגול הכתיבה.</p>`; return; }
+  const qs = shuffle(pool).slice(0,6).map(w=>makeQ(w,'type'));
+  runQuestions(p,qs,score=>{
+    if(score>=5) confetti();
+    const btns = [['🔄 עוד סיבוב',()=>unitType(p,u)],['📖 חזרה ללמידה',()=>{tab='learn';drawTab();}]];
+    p.innerHTML = resultBox(null, score>=5?'אלופי ההקלדה! ⌨️':'כל הכבוד על התרגול!', `כתבתם נכון ${score} מתוך ${qs.length} מילים (בלי רמזים).`, btns); wireResult(p,btns);
+  });
+}
+
+/* ---------- level activities ---------- */
+function levelPage(L, title, sub, pic, back){
+  loadBundle('l'+L.n);
+  $app.innerHTML = pageHead(title, sub, L, pic) + `<div id="panel"></div>`;
+  wireBack(back || 'lvl'+L.n);
+  return document.getElementById('panel');
+}
+function contentPage(L,type){
+  const it = L.items.find(x=>x.type===type), M = TYPES[type];
+  const p = levelPage(L, `${M.label}: ${it.t}`, '', M.icon, 'listen'+L.n);
+  const speakers = [...new Set(it.lines.map(l=>l[0]).filter(Boolean))];
+  p.innerHTML = `<p class="tip">${M.tip} לאתגר: הסתירו את התרגום (ואפילו את התעתיק) בכפתורים למעלה.</p>
+    <div class="toolbar"><button class="btn" id="playAll">🔊 ${type==='song'?'נגנו את השיר':'השמיעו הכול'}</button></div>
+    <div class="chat ${type==='song'?'song':''}">${it.lines.map((l,i)=>`<button class="bubble ${!l[0]?'lyric':(speakers.indexOf(l[0])%2?'b':'')}" data-i="${i}">
+      ${l[0]?`<span class="who">${l[0]} 🔊</span>`:''}<span class="w ar">${l[1]}</span><span class="tr">${l[2]}</span><span class="he">${l[3]}</span></button>`).join('')}</div>
+    <h3 class="subh">שאלון הבנה</h3>
+    <div id="qz">${it.qs.map((q,qi)=>`<div class="qcard"><h4>${qi+1}. ${q[0]}</h4><div class="opts">${shuffle(q.slice(1).map((t,j)=>({t,ok:j===0}))).map(o=>`<button class="opt" data-ok="${o.ok?1:0}"><span class="heopt">${o.t}</span></button>`).join('')}</div></div>`).join('')}</div>
+    <div id="qres"></div>`;
+  const bubbles = [...p.querySelectorAll('.bubble')];
+  const flash = b=>{ bubbles.forEach(x=>x.classList.remove('playing')); b.classList.add('playing'); };
+  bubbles.forEach(b=>b.onclick=()=>{ flash(b); speak(it.lines[+b.dataset.i][1]); });
+  document.getElementById('playAll').onclick = ()=>playSeq(bubbles, i=>it.lines[i][1], flash);
+  let answered = 0, right = 0;
+  p.querySelectorAll('.qcard').forEach(card=>{
+    const btns = [...card.querySelectorAll('.opt')];
+    btns.forEach(b=>b.onclick=()=>{
+      btns.forEach(x=>x.disabled = true);
+      btns.find(x=>x.dataset.ok==='1').classList.add('right');
+      if(b.dataset.ok==='1'){ right++; yay(); } else { b.classList.add('wrong'); oops(); }
+      if(++answered===it.qs.length){
+        const key = L.n+'-'+type; P.listen[key] = Math.max(P.listen[key]||0, right); save();
+        if(right===it.qs.length) confetti();
+        const box = document.getElementById('qres');
+        const next = L.items[L.items.indexOf(it)+1];
+        const btn = [next?[`${TYPES[next.type].icon} ל${TYPES[next.type].label} הבא ←`,()=>go(`l${L.n}-${next.type}`)]:['🎧 לכל ההאזנות',()=>go('listen'+L.n)],['🔄 שוב',()=>contentPage(L,type)]];
+        box.innerHTML = resultBox(null, right===it.qs.length?'הבנתם הכול! <span class="ar">برافو!</span>':'כל הכבוד על ההקשבה!', `ענית נכון על ${right} מתוך ${it.qs.length} שאלות.`, btn);
+        wireResult(box,btn); box.scrollIntoView({behavior:'smooth',block:'center'});
+      }
+    });
+  });
+}
+function riddlesPage(L){
+  const p = levelPage(L, 'חידות', 'حزازير', '🧩');
+  const R = L.riddles; let i = 0, right = 0;
+  const draw = ()=>{
+    if(i>=R.length){
+      P.riddles[L.n] = Math.max(P.riddles[L.n]||0, right); save();
+      if(right===R.length) confetti();
+      const b = [['🔄 שוב',()=>riddlesPage(L)],['🗺️ לרמה',()=>go('lvl'+L.n)]];
+      p.innerHTML = resultBox(null, right===R.length?'פתרתם את כל החידות!':'יופי של חשיבה!', `פתרתם ${right} מתוך ${R.length} חידות.`, b); wireResult(p,b); return;
+    }
+    const r = R[i]; const opts = shuffle(r.opts.map((o,j)=>({ar:o[0],tr:o[1],he:o[2],ok:j===0})));
+    p.innerHTML = `<div class="quiz">
+      <div class="qtop"><span>חידה ${i+1} מתוך ${R.length}</span><span class="bar"><i style="width:${i/R.length*100}%"></i></span><span>🧩 ${right}</span></div>
+      <div class="qprompt"><span class="w ar long">${r.ar}</span><span class="tr">${r.tr}</span>
+        <div class="toolbar" style="justify-content:center;margin:6px 0 0"><button class="btn alt" id="rs">🔊 שמעו</button><button class="btn alt" id="rh">💡 תרגום</button></div>
+        <span class="hint" id="rhe" hidden>${r.he}</span></div>
+      <div class="opts">${opts.map((o,j)=>`<button class="opt" data-j="${j}"><span class="w ar">${o.ar}</span><span class="tr">${o.tr}</span></button>`).join('')}</div>
+      <div id="rans"></div></div>`;
+    document.getElementById('rs').onclick = ()=>speak(r.ar);
+    document.getElementById('rh').onclick = ()=>{ document.getElementById('rhe').hidden = false; };
+    setTimeout(()=>{ if(document.getElementById('rs')) speak(r.ar); },200);
+    const btns = [...p.querySelectorAll('.opt')];
+    btns.forEach(b=>b.onclick=()=>{
+      const o = opts[+b.dataset.j], c = opts.find(x=>x.ok);
+      btns.forEach(x=>x.disabled = true); btns[opts.indexOf(c)].classList.add('right');
+      if(o.ok){ right++; yay(); } else { b.classList.add('wrong'); oops(); }
+      speak(c.ar); document.getElementById('rhe').hidden = false;
+      document.getElementById('rans').innerHTML = `<div class="toolbar" style="justify-content:center;margin-top:14px"><span>התשובה: <b class="ar" style="font-size:22px">${c.ar}</b> = ${c.he}</span><button class="btn" id="rn">${i+1<R.length?'לחידה הבאה ←':'לסיכום'}</button></div>`;
+      document.getElementById('rn').onclick = ()=>{ i++; draw(); };
+    });
+  };
+  draw();
+}
+function speedPage(L){
+  const p = levelPage(L, 'אתגר מהירות', 'تحدّي السرعة', '⚡');
+  const intro = ()=>{
+    p.innerHTML = `<div class="quiz"><div class="result"><div class="big">⚡</div><h3>כמה תצליחו לענות ב־60 שניות?</h3>
+      <p>מופיעה מילה בערבית מכל הרמה, ובוחרים את הפירוש הנכון כמה שיותר מהר.${P.speed[L.n]?` השיא שלכם: <b>${P.speed[L.n]}</b>.`:''}</p>
+      <button class="btn" id="startS">יאללה, מתחילים!</button></div></div>`;
+    document.getElementById('startS').onclick = start;
+  };
+  const start = ()=>{
+    let score = 0, left = 60, ended = false;
+    const pool = L.allWords;
+    const t = setInterval(()=>{ left--; const bar = p.querySelector('.timer i'), lbl = document.getElementById('tl');
+      if(bar) bar.style.width = (left/60*100)+'%'; if(lbl) lbl.textContent = left+' שנ׳';
+      if(left<=0 || !document.body.contains(p)){ clearInterval(t); if(document.body.contains(p)) finish(); } },1000);
+    const next = ()=>{ if(ended) return;
+      const w = pool[Math.floor(Math.random()*pool.length)];
+      renderQ(p, makeQ(w,'ar2he',pool), {score, fast:true, timerHTML:`<span id="tl">${left} שנ׳</span><span class="bar timer"><i style="width:${left/60*100}%"></i></span>`}, ok=>{ if(ok) score++; next(); });
+    };
+    const finish = ()=>{ ended = true; stopSpeech();
+      const isNew = score > (P.speed[L.n]||0); P.speed[L.n] = Math.max(P.speed[L.n]||0, score); save();
+      if(isNew && score>0) confetti();
+      const b = [['🔄 עוד סיבוב',start],['🗺️ לרמה',()=>go('lvl'+L.n)]];
+      p.innerHTML = resultBox(null, `${score} תשובות נכונות!`, isNew?'שיא חדש! 🎉':`השיא שלכם: ${P.speed[L.n]}`, b); wireResult(p,b);
+    };
+    next();
+  };
+  intro();
+}
+function buildPage(L){
+  const p = levelPage(L, 'בונים משפטים', 'ركّب الجملة', '🧱');
+  const sents = shuffle([...L.allWords, ...L.lines].filter(w=>{ const n = plainAr(w.ar).split(' ').length; return n>=3 && n<=7; })).slice(0,6);
+  let i = 0, right = 0;
+  const draw = ()=>{
+    if(i>=sents.length){
+      P.build[L.n] = Math.max(P.build[L.n]||0, right); save(); if(right>=5) confetti();
+      const b = [['🔄 שוב',()=>buildPage(L)],['🗺️ לרמה',()=>go('lvl'+L.n)]];
+      p.innerHTML = resultBox(null, right>=5?'אתם בונים משפטים כמו דוברים!':'כל הכבוד על התרגול!', `בניתם נכון ${right} מתוך ${sents.length} משפטים.`, b); wireResult(p,b); return;
+    }
+    const w = sents[i], toks = plainAr(w.ar).split(' ');
+    let order = shuffle(toks.map((t,j)=>j)); if(order.every((v,j)=>v===j)) order.reverse();
+    const picked = [];
+    p.innerHTML = `<div class="quiz">
+      <div class="qtop"><span>משפט ${i+1} מתוך ${sents.length}</span><span class="bar"><i style="width:${i/sents.length*100}%"></i></span><span>🧱 ${right}</span></div>
+      <div class="qask">סדרו את המילים כך שייצא: <b>״${w.he}״</b></div>
+      <div class="toolbar" style="justify-content:center"><button class="btn alt" id="bs">🔊 רמז: שמעו את המשפט</button></div>
+      <div class="slots" id="slots" aria-label="המשפט שלכם"></div>
+      <div class="pool" id="pool">${order.map(j=>`<button class="tile" data-j="${j}">${toks[j]}</button>`).join('')}</div>
+      <div class="toolbar"><button class="btn" id="chk" disabled>בדיקה</button><button class="btn alt" id="clr">ניקוי</button></div>
+      <div id="bres"></div></div>`;
+    const slots = document.getElementById('slots'), poolEl = document.getElementById('pool'), chk = document.getElementById('chk');
+    document.getElementById('bs').onclick = ()=>speak(w.ar);
+    const sync = ()=>{
+      slots.innerHTML = picked.map((j,k)=>`<button class="tile" data-k="${k}">${toks[j]}</button>`).join('');
+      poolEl.querySelectorAll('.tile').forEach(t=>t.classList.toggle('used', picked.includes(+t.dataset.j)));
+      slots.querySelectorAll('.tile').forEach(t=>t.onclick=()=>{ picked.splice(+t.dataset.k,1); sync(); });
+      chk.disabled = picked.length!==toks.length;
+    };
+    poolEl.querySelectorAll('.tile').forEach(t=>t.onclick=()=>{ const j = +t.dataset.j; if(!picked.includes(j)){ picked.push(j); sync(); } });
+    document.getElementById('clr').onclick = ()=>{ picked.length = 0; sync(); };
+    chk.onclick = ()=>{
+      const ok = picked.map(j=>toks[j]).join(' ')===toks.join(' ');
+      slots.classList.add(ok?'ok':'no'); if(ok){ right++; yay(); } else oops();
+      speak(w.ar);
+      chk.disabled = true; document.getElementById('clr').disabled = true;
+      poolEl.querySelectorAll('.tile').forEach(t=>t.disabled = true); slots.querySelectorAll('.tile').forEach(t=>t.disabled = true);
+      document.getElementById('bres').innerHTML = `<div class="toolbar" style="margin-top:10px">${ok?'<b>נכון!</b>':'המשפט הנכון:'} <span class="answer ar">${w.ar}</span> <span class="hint tr">${w.tr}</span><button class="btn" id="bn">${i+1<sents.length?'למשפט הבא ←':'לסיכום'}</button></div>`;
+      document.getElementById('bn').onclick = ()=>{ i++; draw(); };
+    };
+  };
+  draw();
+}
+
+/* ---------- exams ---------- */
+function examQs(levels,nV,nL,nT){
+  const words = levels.flatMap(L=>L.allWords), lines = levels.flatMap(L=>L.lines);
+  const v = vocabQs(words,nV,words);
+  const l = shuffle(lines).slice(0,nL).map(x=>makeQ(x,'listen2he',lines));
+  const t = shuffle(typePool(words)).slice(0,nT).map(w=>makeQ(w,'type'));
+  return shuffle([...v,...l,...t]);
+}
+function examPage(L){
+  const p = levelPage(L, 'מבחן סוף רמה '+L.n, 'امتحان', '🏆');
+  const best = P.exam2[L.n]||0;
+  const intro = ()=>{
+    p.innerHTML = `<div class="quiz"><div class="result"><div class="big">🏆</div><h3>מבחן סוף רמה: ${L.t}</h3>
+      <p>15 שאלות מכל הרמה: 10 שאלות אוצר מילים, 2 שאלות הבנת הנשמע (משפטים מהשיחות, השירים והפודקאסטים) ו־3 שאלות הקלדה. עונים נכון על 12 ומעלה? מקבלים גביע ועוברים לרמה הבאה.${best?` הציון הכי טוב שלכם: <b>${best}/15</b>.`:''}</p>
+      <button class="btn" id="startE">להתחיל את המבחן</button></div></div>`;
+    document.getElementById('startE').onclick = run;
+  };
+  const run = ()=>{
+    runQuestions(p, examQs([L],10,2,3), score=>{
+      const pass = score>=12; P.exam2[L.n] = Math.max(P.exam2[L.n]||0, score); save();
+      if(pass) confetti();
+      const nxt = LEVELS.find(x=>x.n===L.n+1);
+      const b = pass ? (nxt ? [[`לרמה ${nxt.n}: ${nxt.t} ←`,()=>go('lvl'+nxt.n)],['🏆 לכל המבחנים',()=>go('tests')]] : [['🎓 למבחן המסכם',()=>go('final')],['🏆 לכל המבחנים',()=>go('tests')]])
+        : [['🔄 לנסות שוב',run],['🗺️ לחזרה על הרמה',()=>go('lvl'+L.n)]];
+      p.innerHTML = resultBox(null, pass?`🏆 עברתם את רמה ${L.n}!`:'כמעט! עוד קצת תרגול', `ענית נכון על ${score} מתוך 15. ${pass?(nxt?'אתם מוכנים לרמה הבאה.':'סיימתם את כל הרמות! נשאר רק המבחן המסכם.'):'צריך 12 תשובות נכונות כדי לעבור. חזרו לנושאים שקשים לכם ונסו שוב.'}`, b);
+      wireResult(p,b);
+    });
+  };
+  intro();
+}
+function finalPage(){
+  $app.innerHTML = pageHead('המבחן המסכם', 'الامتحان النهائي', null, '🎓', 'var(--saffron)') + `<div id="panel"></div>`;
+  wireBack('tests');
+  LEVELS.forEach(L=>loadBundle('l'+L.n));
+  const p = document.getElementById('panel');
+  const intro = ()=>{
+    p.innerHTML = `<div class="quiz"><div class="result"><div class="big">🎓</div><h3>מבחן על כל חמש הרמות</h3>
+      <p>20 שאלות: 12 אוצר מילים, 4 הבנת הנשמע ו־4 הקלדה. עוברים עם 16 תשובות נכונות.${P.final?` הציון הכי טוב שלכם: <b>${P.final}/20</b>.`:''}</p>
+      <button class="btn" id="startF">להתחיל</button></div></div>`;
+    document.getElementById('startF').onclick = run;
+  };
+  const run = ()=>runQuestions(p, examQs(LEVELS,12,4,4), score=>{
+    P.final = Math.max(P.final||0, score); save();
+    const pass = score>=16; if(pass) confetti();
+    const b = [['🔄 שוב',run],['🏆 לכל המבחנים',()=>go('tests')]];
+    p.innerHTML = resultBox(null, pass?'🎓 מזל טוב! <span class="ar">مبروك!</span> עברתם את המבחן המסכם':'כל הכבוד על המאמץ!', `ענית נכון על ${score} מתוך 20. ${pass?'אתם מבינים ומדברים ערבית מדוברת!':'צריך 16 כדי לעבור. חזרו לרמות שבהן קשה לכם.'}`, b);
+    wireResult(p,b);
+  });
+  intro();
+}
+function testsPage(){
+  $app.innerHTML = pageHead('מבחנים', 'امتحانات', null, '🏆', 'var(--saffron)') + `
+    <p class="tip">בסוף כל רמה יש מבחן של 15 שאלות: אוצר מילים, הבנת הנשמע והקלדה. עוברים עם 12 ומקבלים גביע. אחרי כל הרמות מחכה המבחן המסכם.</p>
+    <div class="tgrid">${LEVELS.map(L=>{ const s = P.exam2[L.n]||0, pass = s>=12;
+      return `<button class="tcard ${pass?'pass':''}" data-h="l${L.n}-exam" style="--hue:${L.hueVar}">
+        <span class="lbadge">${stitch(STAR)}<b>${L.n}</b></span>
+        <span class="tt">מבחן סוף רמה ${L.n}</span><span class="ts">${L.t}</span>
+        <span class="tscore">${s?`${pass?'🏆 עבר':'ציון'}: ${s}/15`:'עוד לא נבחנתם'}</span></button>`; }).join('')}
+      <button class="tcard final ${P.final>=16?'pass':''}" data-h="final" style="--hue:var(--saffron)">
+        <span class="qi" aria-hidden="true">🎓</span><span class="tt">המבחן המסכם</span><span class="ts">כל חמש הרמות · 20 שאלות</span>
+        <span class="tscore">${P.final?`${P.final>=16?'🎓 עבר':'ציון'}: ${P.final}/20`:'עוד לא נבחנתם'}</span></button>
+    </div>
+    <h3 class="subh">לא בטוחים מאיפה להתחיל?</h3>
+    <button class="btn alt" data-h="placement">🎯 מבחן מיקום (10 שאלות)</button>`;
+  wireBack('home');
+  $app.querySelectorAll('[data-h]').forEach(b=>b.onclick=()=>go(b.dataset.h));
+}
+function placementPage(){
+  $app.innerHTML = pageHead('מבחן מיקום', 'وين بتبلّش؟', null, '🎯') + `<div id="panel"></div>`;
+  wireBack('home');
+  const p = document.getElementById('panel');
+  LEVELS.forEach(L=>loadBundle('l'+L.n));
+  const qs = [], lvOf = [];
+  LEVELS.forEach(L=>{ shuffle(L.allWords).slice(0,2).forEach((w,j)=>{ qs.push(makeQ(w, j?'ar2he':'he2ar', L.allWords)); lvOf.push(L.n); }); });
+  p.innerHTML = `<div class="quiz"><div class="result"><div class="big">🎯</div><h3>מאיזו רמה כדאי להתחיל?</h3>
+    <p>10 שאלות, מהקלות לקשות. אם לא יודעים, פשוט מנחשים. בסוף נמליץ לכם על רמה.</p><button class="btn" id="startP">להתחיל</button></div></div>`;
+  document.getElementById('startP').onclick = ()=>{
+    let i = 0; const perLv = {};
+    const next = ()=>{
+      if(i>=qs.length){
+        let rec = LEVELS.length; for(const L of LEVELS){ if((perLv[L.n]||0)<2){ rec = L.n; break; } }
+        const R = LEVELS[rec-1], total = Object.values(perLv).reduce((a,b)=>a+b,0);
+        const b = [[`לרמה ${R.n}: ${R.t} ←`,()=>go('lvl'+R.n)],['🔄 שוב',placementPage]];
+        p.innerHTML = resultBox(null, `ההמלצה שלנו: רמה ${R.n}, ${R.t}`, `ענית נכון על ${total} מתוך 10. ${rec===1?'מתחילים מהבסיס, ותתקדמו מהר!':'את הרמות הקודמות כבר שלטתם בהן. אפשר לחזור אליהן לחזרה מתי שרוצים.'}`, b);
+        wireResult(p,b); return;
+      }
+      renderQ(p,qs[i],{i,n:qs.length,score:Object.values(perLv).reduce((a,b)=>a+b,0)},ok=>{ if(ok) perLv[lvOf[i]] = (perLv[lvOf[i]]||0)+1; i++; next(); });
+    };
+    next();
+  };
+}
+
+/* ---------- daily challenge ---------- */
+function dailyPage(){
+  const t = todayKey(), r = seedRand('daily'+t), maxL = highestLevel();
+  const levels = LEVELS.slice(0,maxL);
+  levels.forEach(L=>loadBundle('l'+L.n));
+  const words = levels.flatMap(L=>L.allWords), lines = levels.flatMap(L=>L.lines);
+  const wod = wordOfDay(), d = dailyInfo();
+  $app.innerHTML = pageHead('האתגר היומי', 'تحدّي اليوم', null, '🌞', 'var(--saffron)') + `<div id="panel"></div>`;
+  wireBack('home');
+  const p = document.getElementById('panel');
+  const build = ()=>{
+    const v = shuffleR(words,r).slice(0,5).map((w,i)=>{ const ks = kindsFor(w); return makeQ(w, ks[i%ks.length], w.u.pics?null:words); });
+    const l = shuffleR(lines,r).slice(0,1).map(x=>makeQ(x,'listen2he',lines));
+    const ty = shuffleR(typePool(words),r).slice(0,2).map(w=>makeQ(w,'type'));
+    return [...v.slice(0,3), ...l, ty[0], ...v.slice(3), ty[1]].filter(Boolean);
+  };
+  const intro = ()=>{
+    p.innerHTML = `<div class="quiz daily"><div class="result">
+      <div class="streak big"><span class="fire">🔥</span><b>${d.streak}</b><span>${d.streak===1?'יום ברצף':'ימים ברצף'}</span></div>
+      <h3>${d.doneToday?'כבר השלמתם את האתגר של היום! 🎉':'8 משימות קצרות, כל יום משהו חדש'}</h3>
+      <p>מילים, האזנה והקלדה מרמות 1–${maxL}. השלימו כל יום כדי לשמור על הרצף. השיא שלכם: ${d.best} ימים.</p>
+      <button class="wodword" id="wodb"><span class="wod">מילת היום</span>${wod.pic?`<span class="pic">${wod.pic}</span>`:''}<span class="w ar">${wod.ar}</span><span class="tr">${wod.tr}</span><span class="he">${wod.he}</span></button>
+      <button class="btn" id="startD">${d.doneToday?'לשחק שוב':'🌞 להתחיל'}</button></div></div>`;
+    document.getElementById('wodb').onclick = ()=>speak(wod.ar);
+    document.getElementById('startD').onclick = ()=>runQuestions(p, build(), finish);
+  };
+  const finish = score=>{
+    let msg = '';
+    if(P.daily.last!==t){
+      P.daily.streak = P.daily.last===yesterdayKey() ? (P.daily.streak||0)+1 : 1;
+      P.daily.last = t; P.daily.best = Math.max(P.daily.best||0, P.daily.streak);
+      msg = `הרצף שלכם: 🔥 ${P.daily.streak} ${P.daily.streak===1?'יום':'ימים'}!`;
+    } else msg = 'הרצף כבר נשמר היום.';
+    P.daily.scores = P.daily.scores||{}; P.daily.scores[t] = Math.max(P.daily.scores[t]||0, score); save();
+    confetti();
+    const b = [['🏠 לדף הבית',()=>go('home')],['🔄 שוב',()=>{ dailyPage(); }]];
+    p.innerHTML = resultBox(null, score>=7?'אלופים! 🌞':'האתגר של היום הושלם!', `ענית נכון על ${score} מתוך 8. ${msg} נתראה מחר עם אתגר חדש.`, b); wireResult(p,b);
+  };
+  intro();
+}
+
+/* ---------- listening hub ---------- */
+function listenPage(n){
+  const L = LEVELS[(n||P.listenLv||1)-1] || LEVELS[0];
+  P.listenLv = L.n; save();
+  loadBundle('l'+L.n);
+  $app.innerHTML = pageHead('האזנה והבנה', 'استماع وفهم', null, '🎧', 'var(--indigo)') + `
+    <p class="tip">בכל רמה: שיחת היכרות, שיר, פודקאסט ומערכון. מקשיבים, קוראים, ועונים על שאלון הבנה. כל התוכן נכתב במיוחד ללומדה.</p>
+    ${lvChips(L.n)}
+    <div class="lcards" style="--hue:${L.hueVar}">${L.items.map(it=>{ const M = TYPES[it.type], s = P.listen[L.n+'-'+it.type];
+      return `<button class="lcard ${s!=null?'done':''}" data-h="l${L.n}-${it.type}">
+        <span class="li">${M.icon}</span><span class="lt">${it.t}</span><span class="ls">${M.label} · ${it.lines.length} שורות · ${it.qs.length} שאלות</span>
+        ${s!=null?`<span class="badge">✔ ${s}/${it.qs.length}</span>`:''}</button>`; }).join('')}</div>`;
+  wireBack('home');
+  $app.querySelectorAll('[data-lv]').forEach(b=>b.onclick=()=>go('listen'+b.dataset.lv));
+  $app.querySelectorAll('[data-h]').forEach(b=>b.onclick=()=>go(b.dataset.h));
+}
+
+/* ---------- writing: typing + handwriting ---------- */
+let wtab = 'hand', typeLv = 'abc', handSet = 'letters', handIdx = 0, showGuide = true;
+function writePage(){
+  $app.innerHTML = pageHead('תרגול כתיבה', 'الكتابة', null, '✍️', 'var(--olive)') + `
+    <div class="tabs" role="group" aria-label="סוג תרגול"><button data-wt="hand">✏️ כתיבה ביד</button><button data-wt="type">⌨️ הקלדה</button></div>
+    <div id="panel"></div>`;
+  wireBack('home');
+  loadBundle('abc'); loadBundle('l1'); loadBundle('l2');
+  const draw = ()=>{
+    $app.querySelectorAll('[data-wt]').forEach(b=>b.setAttribute('aria-pressed', b.dataset.wt===wtab));
+    const p = document.getElementById('panel');
+    wtab==='hand' ? handTab(p) : typeTab(p);
+  };
+  $app.querySelectorAll('[data-wt]').forEach(b=>b.onclick=()=>{ wtab = b.dataset.wt; stopSpeech(); draw(); });
+  draw();
+}
+function typeTab(p){
+  const intro = ()=>{
+    p.innerHTML = `<p class="tip">שומעים מילה, רואים מה היא אומרת, וכותבים אותה באותיות ערביות. אפשר להקליד במקלדת הערבית שעל המסך, או במקלדת שלכם אם יש בה ערבית. הניקוד לא נבדק, וגם א/أ/إ נחשבות אותו דבר.</p>
+      ${lvChips(typeLv,[['abc','אותיות']])}
+      <div class="toolbar"><button class="btn" id="startT">⌨️ להתחיל (8 מילים)</button>${P.typeBest[typeLv]!=null?`<span class="hint">השיא שלכם כאן: ${P.typeBest[typeLv]}/8</span>`:''}</div>`;
+    p.querySelectorAll('[data-lv]').forEach(b=>b.onclick=()=>{ typeLv = b.dataset.lv; intro(); });
+    p.querySelector('#startT').onclick = run;
+  };
+  const run = ()=>{
+    const pool = typeLv==='abc' ? letterTypeItems() : typePool(LEVELS[+typeLv-1].allWords);
+    if(typeLv!=='abc') loadBundle('l'+typeLv);
+    const qs = shuffle(pool).slice(0,8).map(w=>makeQ(w,'type'));
+    runQuestions(p,qs,score=>{
+      P.typeBest[typeLv] = Math.max(P.typeBest[typeLv]||0, score); save();
+      if(score>=6) confetti();
+      const b = [['🔄 עוד סיבוב',run],['בחירת רמה אחרת',intro]];
+      p.innerHTML = resultBox(null, score>=6?'אלופי ההקלדה! ⌨️':'כל הכבוד על התרגול!', `כתבתם נכון ${score} מתוך ${qs.length} (בלי רמזים).`, b); wireResult(p,b);
+    });
+  };
+  intro();
+}
+const HAND_SETS = {
+  letters:{t:'אותיות', items:()=>LETTERS.map(l=>({g:l.ch,say:l.arName,he:'האות '+l.name,tr:l.sound,pic:null,ch:l.ch}))},
+  words1:{t:'מילים קלות', items:()=>LEVELS[0].allWords.filter(w=>!w.ar.includes(' ') && plainAr(w.ar).length<=5).map(w=>({g:plainAr(w.ar),say:w.ar,he:w.he,tr:w.tr,pic:w.pic}))},
+  words2:{t:'מילים מרמה 2', items:()=>LEVELS[1].allWords.filter(w=>!w.ar.includes(' ') && plainAr(w.ar).length<=6).map(w=>({g:plainAr(w.ar),say:w.ar,he:w.he,tr:w.tr,pic:w.pic}))}
+};
+function handTab(p){
+  const items = HAND_SETS[handSet].items();
+  if(handIdx>=items.length) handIdx = 0;
+  const it = items[handIdx], key = handSet+':'+it.g, best = P.hand[key]||0;
+  p.innerHTML = `<p class="tip">כתבו עם האצבע, עם עט של טאבלט או עם העכבר. בהתחלה עוברים על הקו המנחה, ואחר כך מסתירים אותו ומנסים לבד. כותבים מימין לשמאל, והנקודות באות בסוף.</p>
+    <div class="lvchips">${Object.entries(HAND_SETS).map(([k,s])=>`<button class="lvchip" data-set="${k}" style="--hue:var(--olive)" aria-pressed="${k===handSet}">${s.t}</button>`).join('')}</div>
+    <div class="handgrid">
+      <div class="hcard">
+        <span class="hint">${handIdx+1} מתוך ${items.length}</span>
+        ${it.pic?`<span class="pic">${it.pic}</span>`:''}
+        <span class="w ar">${it.g}</span>
+        <span class="he">${it.he}</span>${it.tr?`<span class="tr">${it.tr}</span>`:''}
+        <button class="btn alt" id="hs">🔊 שמעו</button>
+        ${it.ch?formsHTML(it.ch):''}
+        <span class="hbest">${best?`הכי טוב: ${starStr(best)}`:''}</span>
+      </div>
+      <div class="padcol">
+        <div class="padwrap" id="padwrap"><canvas id="guide" aria-hidden="true"></canvas><canvas id="ink" aria-label="משטח כתיבה"></canvas></div>
+        <div class="toolbar padbar">
+          <button class="btn" id="hc">✅ בדיקה</button>
+          <button class="btn alt" id="hx">🧽 ניקוי</button>
+          <button class="btn alt" id="hg" aria-pressed="${showGuide}">${showGuide?'🙈 להסתיר קו מנחה':'👁️ להראות קו מנחה'}</button>
+          <button class="btn alt" id="hp">→ הקודם</button>
+          <button class="btn alt" id="hn">הבא ←</button>
+        </div>
+        <div id="hres" class="hres" aria-live="polite"></div>
+      </div>
+    </div>`;
+  p.querySelectorAll('[data-set]').forEach(b=>b.onclick=()=>{ handSet = b.dataset.set; handIdx = 0; handTab(p); });
+  p.querySelector('#hs').onclick = ()=>speak(it.say);
+  p.querySelector('#hn').onclick = ()=>{ handIdx = (handIdx+1)%items.length; handTab(p); };
+  p.querySelector('#hp').onclick = ()=>{ handIdx = (handIdx-1+items.length)%items.length; handTab(p); };
+  p.querySelector('#hg').onclick = ()=>{ showGuide = !showGuide; handTab(p); };
+  setupPad(it).then(pad=>{
+    if(!pad) return;
+    p.querySelector('#hx').onclick = ()=>{ pad.clear(); p.querySelector('#hres').innerHTML = ''; };
+    p.querySelector('#hc').onclick = ()=>{
+      const sc = pad.score(), box = p.querySelector('#hres');
+      if(sc===null){ box.innerHTML = '<span class="hint">כתבו קודם את האות על המשטח 🙂</span>'; return; }
+      const s = sc>=80?3:sc>=60?2:sc>=35?1:0;
+      if(s>best){ P.hand[key] = s; save(); }
+      if(s>=2) yay(); else oops();
+      if(s===3) confetti();
+      box.innerHTML = `<div class="hscore"><span class="big">${starStr(s)}</span><b>${sc}% דיוק</b><span>${s===3?'מושלם! <span class="ar">ممتاز</span>':s===2?'יפה מאוד! נסו גם בלי הקו המנחה':s===1?'התחלה טובה. נסו לעבור בדיוק על הקו':'נסו שוב, לאט ובזהירות'}</span></div>`;
+    };
+  });
+}
+async function setupPad(it){
+  const wrap = document.getElementById('padwrap'), g = document.getElementById('guide'), ink = document.getElementById('ink');
+  if(!wrap) return null;
+  try{ await document.fonts.load('700 100px "Noto Naskh Arabic"'); }catch(e){}
+  if(!document.body.contains(wrap)) return null;
+  const dpr = Math.min(2, window.devicePixelRatio||1), W = Math.round(wrap.clientWidth*dpr), H = Math.round(wrap.clientHeight*dpr);
+  [g,ink].forEach(c=>{ c.width = W; c.height = H; });
+  const mask = document.createElement('canvas'); mask.width = W; mask.height = H;
+  const cs = getComputedStyle(document.documentElement), tok = n => cs.getPropertyValue(n).trim();
+  const font = s => `700 ${s}px "Noto Naskh Arabic", "Geeza Pro", serif`;
+  const mc = mask.getContext('2d'); let size = H*0.5; mc.font = font(size);
+  const mw = mc.measureText(it.g).width; if(mw > W*0.8) size *= W*0.8/mw;
+  const baseY = H*0.64;
+  const text = (ctx,color)=>{ ctx.font = font(size); ctx.textAlign = 'center'; ctx.textBaseline = 'alphabetic'; ctx.direction = 'rtl'; ctx.fillStyle = color; ctx.fillText(it.g, W/2, baseY); };
+  text(mc,'#000');
+  const gc = g.getContext('2d');
+  gc.strokeStyle = tok('--rule'); gc.lineWidth = 1.5*dpr; gc.setLineDash([8*dpr,8*dpr]);
+  [baseY, baseY-size*0.42].forEach(y=>{ gc.beginPath(); gc.moveTo(0,y); gc.lineTo(W,y); gc.stroke(); });
+  gc.setLineDash([]);
+  if(showGuide) text(gc, tok('--guide'));
+  const ic = ink.getContext('2d'), penW = Math.max(6*dpr, size*0.075);
+  ic.lineWidth = penW; ic.lineCap = 'round'; ic.lineJoin = 'round'; ic.strokeStyle = tok('--pen'); ic.fillStyle = tok('--pen');
+  let drawing = false, last = null;
+  const pt = e=>{ const r = ink.getBoundingClientRect(); return {x:(e.clientX-r.left)*W/r.width, y:(e.clientY-r.top)*H/r.height}; };
+  ink.onpointerdown = e=>{ e.preventDefault(); drawing = true; try{ ink.setPointerCapture(e.pointerId); }catch(_){} last = pt(e); ic.beginPath(); ic.arc(last.x,last.y,penW/2,0,Math.PI*2); ic.fill(); };
+  ink.onpointermove = e=>{ if(!drawing) return; const q = pt(e); ic.beginPath(); ic.moveTo(last.x,last.y); ic.lineTo(q.x,q.y); ic.stroke(); last = q; };
+  ink.onpointerup = ink.onpointercancel = ink.onpointerleave = ()=>{ drawing = false; };
+  return {
+    clear(){ ic.clearRect(0,0,W,H); },
+    score(){
+      const step = Math.max(3, Math.round(penW/3));
+      const a = ic.getImageData(0,0,W,H).data, b = mc.getImageData(0,0,W,H).data;
+      const gw = Math.ceil(W/step), gh = Math.ceil(H/step), I = new Uint8Array(gw*gh), G = new Uint8Array(gw*gh);
+      for(let y=0;y<gh;y++) for(let x=0;x<gw;x++){ const o = (Math.min(H-1,y*step)*W + Math.min(W-1,x*step))*4+3; if(a[o]>40) I[y*gw+x] = 1; if(b[o]>40) G[y*gw+x] = 1; }
+      const k = Math.max(1, Math.round(penW/step));
+      const dil = M=>{ const out = new Uint8Array(M.length); for(let y=0;y<gh;y++) for(let x=0;x<gw;x++){ if(!M[y*gw+x]) continue;
+        for(let dy=-k;dy<=k;dy++){ const yy = y+dy; if(yy<0||yy>=gh) continue; for(let dx=-k;dx<=k;dx++){ const xx = x+dx; if(xx>=0&&xx<gw) out[yy*gw+xx] = 1; } } } return out; };
+      const DI = dil(I), DG = dil(G); let gn=0, gcov=0, inN=0, inOk=0;
+      for(let j=0;j<I.length;j++){ if(G[j]){ gn++; if(DI[j]) gcov++; } if(I[j]){ inN++; if(DG[j]) inOk++; } }
+      if(inN<6) return null;
+      return Math.round(100*Math.min(1,(gcov/Math.max(1,gn))/0.8)*Math.min(1,(inOk/inN)/0.85));
+    }
+  };
+}
+
+/* ---------- routing ---------- */
+const NAV_OF = {home:'home',daily:'daily',write:'write',tests:'tests',final:'tests',placement:'tests'};
+function route(){
+  const id = location.hash.replace('#','');
+  stopSpeech();
+  const u = unitById(id);
+  const m = id.match(/^l(\d)-(dialog|song|podcast|comedy|riddles|speed|build|exam)$/);
+  const lv = id.match(/^lvl(\d)$/), ls = id.match(/^listen(\d)?$/);
+  let scrolled = false, nav = NAV_OF[id] || (ls||(m&&['dialog','song','podcast','comedy'].includes(m[2]))?'listen':(u||lv||m?'home':'home'));
+  if(u){ if(!current || current.id!==u.id) tab = 'learn'; renderUnit(u); }
+  else if(m && LEVELS[+m[1]-1]){ current = null; const L = LEVELS[+m[1]-1];
+    if(['dialog','song','podcast','comedy'].includes(m[2])) contentPage(L,m[2]);
+    else ({riddles:riddlesPage,speed:speedPage,build:buildPage,exam:examPage})[m[2]](L); }
+  else if(ls){ current = null; listenPage(ls[1] ? +ls[1] : null); }
+  else if(id==='placement'){ current = null; placementPage(); }
+  else if(id==='daily'){ current = null; dailyPage(); }
+  else if(id==='write'){ current = null; writePage(); }
+  else if(id==='tests'){ current = null; testsPage(); }
+  else if(id==='final'){ current = null; finalPage(); }
+  else { current = null; scrolled = renderHome(lv ? 'lvl'+lv[1] : null); }
+  document.querySelectorAll('[data-nav]').forEach(b=>{ if(b.dataset.nav===nav) b.setAttribute('aria-current','page'); else b.removeAttribute('aria-current'); });
+  if(!scrolled) window.scrollTo(0,0);
+}
+document.querySelectorAll('[data-nav]').forEach(b=>b.onclick=()=>go(b.dataset.nav==='listen' ? 'listen'+(P.listenLv||1) : b.dataset.nav));
+document.getElementById('homeBtn').onclick = ()=>go('home');
+addEventListener('hashchange', route);
+applySettings(); updateChips(); route();
+
+</script>
+
+</body></html>
